@@ -1,0 +1,51 @@
+desc:Drum Humanizer
+//author: Rekonin
+
+slider1:0<-40,40,1>Dynamic Automation
+slider2:0<0,10,1>Velocity Fluctuation
+slider4:0<0,127,1>Min Velocity
+slider5:127<0,127,1>Max Velocity
+slider7:0<0,3,1>Final Humanize
+
+in_pin:none
+out_pin:none
+
+@init
+
+@slider
+slider4 = min(slider4, slider5);
+slider5 = max(slider4, slider5);
+
+@block
+while (midirecv(offset,msg1,msg2,msg3)) (
+
+  velocity=msg3;
+  msg1==$x90 && msg3!=0 ?
+    (
+    // Initial Velocity Fluctuation
+    slider2!=0 ?
+      (
+      rnd_velocity=floor(rand(1)+0.5);
+      rnd_velocity>0 ? velocity=velocity+floor((rand(slider2)+0.5)) :
+      velocity=velocity-floor((rand(slider2)+0.5));
+      );
+
+    // Add Dynamic Automation Value
+    velocity=velocity+slider1;
+
+    // Constrain Velocity to Min/Max Values
+    velocity>slider5 ? velocity=slider5 : velocity<slider4 ? velocity=slider4;
+
+    // Final Humanize
+    slider7!=0 ?
+      (
+      rnd_velocity=floor(rand(1)+0.5);
+      rnd_velocity>0 ? velocity=velocity+floor((rand(slider7)+0.5)) :
+      velocity=velocity-floor((rand(slider7)+0.5));
+      );
+    (
+    // Passthru MIDI
+    midisend(offset,msg1,msg2,velocity);
+    );
+  );
+);

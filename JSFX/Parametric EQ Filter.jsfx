@@ -1,0 +1,22 @@
+desc:Parametric EQ Filter
+
+import cookdsp.jsfx-inc
+
+slider1:1000<100,10000>Center Frequency
+slider2:1<0.5,20>Filter Q
+slider3:0<-18,18>Boost/Cut (dB)
+slider4:0<0,2,1{Peak/Notch,Lowshelf,Highshelf}>Filter type
+
+@init
+f1.eq(slider1, slider2, slider3, slider4);
+f2.eq(slider1, slider2, slider3, slider4);
+
+@slider
+f1.eq_set_freq(slider1); f2.eq_set_freq(slider1);
+f1.eq_set_q(slider2); f2.eq_set_q(slider2);
+f1.eq_set_boost(slider3); f2.eq_set_boost(slider3);
+f1.eq_set_type(slider4); f2.eq_set_type(slider4);
+
+@sample
+spl0 = f1.eq_do(spl0);
+spl1 = f2.eq_do(spl1);

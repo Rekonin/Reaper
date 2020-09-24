@@ -1,0 +1,26 @@
+desc:Interpolated Stereo Lowpass Filter
+
+import cookdsp.jsfx-inc
+
+slider1:200<100,10000>Cutoff Frequency In Hz
+slider2:1<0.01,10>Interpolation Time In Seconds
+
+@init
+// Initializes the interpolator
+interp.lop(1.0 / slider2);
+// Initializes the filters
+filt1.lop(slider1);
+filt2.lop(slider1);
+
+@slider
+// Sets the interpolator's frequency
+interp.lop_set_freq(1.0 / slider2);
+
+@sample
+// Compute and sets the filters's frequency
+freq = interp.lop_do(slider1);
+filt1.lop_set_freq(freq);
+filt2.lop_set_freq(freq);
+// Filters the input signal
+spl0 = filt1.lop_do(spl0);
+spl1 = filt2.lop_do(spl1);

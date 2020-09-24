@@ -1,0 +1,119 @@
+desc:RekChannel Stereo
+
+import cookdsp.jsfx-inc
+
+slider1:16<16,1000,1>Highpass
+
+slider2:200<20,1000,1>Low shelf freq
+slider3:0<-18,18,0.1>Low shelf gain
+
+slider4:200<30,800,1>Low band freq
+slider5:3<0.2,10,0.1>Low band Q
+slider6:0<-18,18,0.1>Low band gain
+
+slider7:1000<100,4000,1>Mid band freq
+slider8:3<0.2,10,0.1>Mid band Q
+slider9:0<-18,18,0.1>Mid band gain
+
+slider10:4800<2400,16000,1>High band freq
+slider11:3<0.2,10,0.1>High band Q
+slider12:0<-18,18,0.1>High band gain
+
+slider13:16000<3200,20000,1>High shelf freq
+slider14:0<-18,18,0.1>High shelf gain
+
+slider15:22050<100,22050,1>Lowpass
+
+slider16:0<-30,10,0.1>Threshold
+slider17:4<1,20,0.1>Ratio
+slider18:10<1,150,1>Attack
+slider19:100<1,250,1>Release
+slider20:5<0.5,10,0.1>Look Ahead
+slider21:0<-18,18,1>Makeup
+
+@init
+filt1.buthp(slider1);
+filt2.buthp(slider1);
+
+f1.eq(slider2, 0.7, slider3, 1);
+f2.eq(slider2, 0.7, slider3, 1);
+
+f3.eq(slider4, slider5, slider6, 0);
+f4.eq(slider4, slider5, slider6, 0);
+
+f5.eq(slider7, slider8, slider9, 0);
+f6.eq(slider7, slider8, slider9, 0);
+
+f7.eq(slider10, slider11, slider12, 0);
+f8.eq(slider10, slider11, slider12, 0);
+
+f9.eq(slider13, 0.7, slider14, 2);
+f10.eq(slider13, 0.7, slider14, 2);
+
+filt3.butlp(slider15);
+filt4.butlp(slider15);
+
+cL.compress(slider16, slider17, slider18, slider19, slider20);
+cR.compress(slider16, slider17, slider18, slider19, slider20);
+
+@slider
+filt1.buthp_set_freq(slider1);
+filt2.buthp_set_freq(slider1);
+
+f1.eq_set_freq(slider2); f2.eq_set_freq(slider2);
+f1.eq_set_boost(slider3); f2.eq_set_boost(slider3);
+
+f3.eq_set_freq(slider4); f4.eq_set_freq(slider4);
+f3.eq_set_q(slider5); f4.eq_set_q(slider5);
+f3.eq_set_boost(slider6); f4.eq_set_boost(slider6);
+
+f5.eq_set_freq(slider7); f6.eq_set_freq(slider7);
+f5.eq_set_q(slider8); f6.eq_set_q(slider8);
+f5.eq_set_boost(slider9); f6.eq_set_boost(slider9);
+
+f7.eq_set_freq(slider10); f8.eq_set_freq(slider10);
+f7.eq_set_q(slider11); f8.eq_set_q(slider11);
+f7.eq_set_boost(slider12); f8.eq_set_boost(slider12);
+
+f9.eq_set_freq(slider13); f10.eq_set_freq(slider13);
+f9.eq_set_boost(slider14); f10.eq_set_boost(slider14);
+
+filt3.butlp_set_freq(slider15);
+filt4.butlp_set_freq(slider15);
+
+cL.compress_set_thresh(slider16);
+cR.compress_set_thresh(slider16);
+cL.compress_set_ratio(slider17);
+cR.compress_set_ratio(slider17);
+cL.compress_set_attack(slider18);
+cR.compress_set_attack(slider18);
+cL.compress_set_release(slider19);
+cR.compress_set_release(slider19);
+cL.compress_set_lookahead(slider20);
+cR.compress_set_lookahead(slider20);
+gain = pow(10, slider21 * 0.05);
+
+@sample
+spl0 = filt1.buthp_do(spl0);
+spl1 = filt2.buthp_do(spl1);
+
+spl0 = f1.eq_do(spl0);
+spl1 = f2.eq_do(spl1);
+
+spl0 = f3.eq_do(spl0);
+spl1 = f4.eq_do(spl1);
+
+spl0 = f5.eq_do(spl0);  
+spl1 = f6.eq_do(spl1);
+
+spl0 = f7.eq_do(spl0);
+spl1 = f8.eq_do(spl1);
+
+spl0 = f9.eq_do(spl0);
+spl1 = f10.eq_do(spl1);
+
+spl0 = filt3.butlp_do(spl0);
+spl1 = filt4.butlp_do(spl1);
+
+spl0 = cL.compress_do(spl0) * gain;
+spl1 = cR.compress_do(spl1) * gain;

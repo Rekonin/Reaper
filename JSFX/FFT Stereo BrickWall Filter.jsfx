@@ -1,0 +1,54 @@
+desc:FFT Stereo BrickWall Filter
+
+import cookdsp.jsfx-inc
+
+// FFT parameters (only FFT Size for the example).
+slider1:5<0,8,1{32,64,128,256,512,1024,2048,4096,8192}>FFT Size
+// Effect's specific sliders.
+slider2:1000<100,18000>Filter Frequency
+slider3:0<0,1,1{Lowpass,Highpass}>Filter Type
+
+@init
+size = pow(2, slider1+5);
+fin.fftin(size, 4);
+fin2.fftin(size, 4);
+fout.fftout(size, 4);
+fout2.fftout(size, 4);
+brk.fftbrick(slider2, slider3, size/2);
+brk2.fftbrick(slider2, slider3, size/2);
+
+@slider
+size = pow(2, slider1+5);
+// If size changed, re-initialize FFTs.
+size != fin.size ? (
+    fin.fftin_resize(size, 4);
+    fin2.fftin_resize(size, 4);
+    fout.fftout_resize(size, 4);
+    fout2.fftout_resize(size, 4);
+    // Initialize effect's specific memories.
+    brk.fftbrick_resize(size/2);
+    brk2.fftbrick_resize(size/2);
+);
+// If cutoff frequency changed.
+slider2 != brk.freq ? (
+    brk.fftbrick_set_freq(slider2);
+    brk2.fftbrick_set_freq(slider2);
+);
+brk.fftbrick_set_type(slider3);
+brk2.fftbrick_set_type(slider3);
+
+@sample
+// Input / Output
+fin.fftin_do(spl0);
+fin2.fftin_do(spl1);
+spl0 = fout.fftout_get_output(fin.count);
+spl1 = fout2.fftout_get_output(fin2.count);
+
+fin.ready ? (
+    // New buffers ready for processing.
+    brk.fftbrick_do(fin.real, fin.imag);
+    brk2.fftbrick_do(fin2.real, fin2.imag);
+    // compute the inverse FFT.
+    fout.fftout_do(brk.real, brk.imag);
+    fout2.fftout_do(brk2.real, brk2.imag);
+);
