@@ -367,31 +367,31 @@
 
 <reapack name="Rek_Set Selected Track Width to 0%.lua" type="script" desc="Rek_Set Selected Track Width to 0%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%200%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%200.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 25%.lua" type="script" desc="Rek_Set Selected Track Width to 25%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2025%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2025.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 50%.lua" type="script" desc="Rek_Set Selected Track Width to 50%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2050%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2050.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 75%.lua" type="script" desc="Rek_Set Selected Track Width to 75%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2075%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2075.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 100%.lua" type="script" desc="Rek_Set Selected Track Width to 100%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%20100%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%20100.lua</source>
 </version>
 </reapack>
 
