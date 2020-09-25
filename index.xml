@@ -131,11 +131,7 @@
 </version>
 </reapack>
 
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/</source>
-</version>
-</reapack>
+--[[
 
 <reapack name="" type="script" desc="">
 <version name="1.0" author="Rekonin">
@@ -232,6 +228,14 @@
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/</source>
 </version>
 </reapack>
+
+<reapack name="" type="script" desc="">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/</source>
+</version>
+</reapack>
+
+--]]
 
 </category>
 
