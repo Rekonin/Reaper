@@ -1,5 +1,3 @@
-// Adapted from script by original author X-Raym
-
 function nudge_item_vol() local(i, item)
 (
   i = 0;
