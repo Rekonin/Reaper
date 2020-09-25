@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Mini V3"
 local NamePreset = "My Default"
 local TrackName = "Synth Mini Moog"

@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "LABS"
 local NamePreset = "My Default"
 local TrackName = "LABS"

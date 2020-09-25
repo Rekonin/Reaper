@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "PG-8X"
 local NamePreset = "My Default"
 local TrackName = "Synth PG-8X"

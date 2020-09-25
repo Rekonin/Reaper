@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Ample Bass J"
 local NamePreset = "My Default"
 local TrackName = "Ample Bass"

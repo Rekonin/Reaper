@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "AmpliTube 4"
 local NamePreset = "My Default"
 local TrackName = "Gtr AmpliTube"

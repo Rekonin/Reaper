@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "VK-1 Viking Synthesizer"
 local NamePreset = "My Default"
 local TrackName = "Synth VK-1 Viking"

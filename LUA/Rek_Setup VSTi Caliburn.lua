@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Amplifikation Caliburn"
 local NamePreset = "My Default"
 local TrackName = "Gtr Caliburn"

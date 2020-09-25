@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Addictive Keys"
 local NamePreset = "My Default"
 local TrackName = "Keys Rhodes"

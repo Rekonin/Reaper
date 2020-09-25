@@ -1,5 +1,3 @@
---Original author: EvilDragon
-
 reaper.Undo_BeginBlock()
 
 last_context = reaper.GetCursorContext2(true)

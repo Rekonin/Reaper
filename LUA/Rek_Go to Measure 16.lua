@@ -1,5 +1,3 @@
---Original Author: me2beats
-
 local msr = 16
 local moveview = 0 -- set 1 if you want to move view
 

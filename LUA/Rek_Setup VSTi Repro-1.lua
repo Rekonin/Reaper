@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Repro-1"
 local NamePreset = "My Default"
 local TrackName = "Keys Repro-1"

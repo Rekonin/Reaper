@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Wurli V2"
 local NamePreset = "My Default"
 local TrackName = "Keys Wurli"

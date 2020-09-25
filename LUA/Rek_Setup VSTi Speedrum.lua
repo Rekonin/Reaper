@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Speedrum Lite"
 local NamePreset = "My Default"
 local TrackName = "Drums Speedrum"

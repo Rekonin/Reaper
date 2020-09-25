@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "BIAS FX 2"
 local NamePreset = "My Default"
 local TrackName = "Gtr BIAS"

@@ -1,5 +1,3 @@
---Adapted from script, original author: Archie
-
 local NameFX = "Mika Micro"
 local NamePreset = "My Default"
 local TrackName = "Synth Mika Micro"
