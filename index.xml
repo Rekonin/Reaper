@@ -19,73 +19,73 @@
 
 <reapack name="Butterworth Highpass Filter.jsfx" type="effect" desc="Butterworth Highpass Filter.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Butterworth Highpass Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Butterworth%20Highpass%20Filter.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Butterworth Lowpass Filter.jsfx" type="effect" desc="Butterworth Lowpass Filter.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Butterworth Lowpass Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Butterworth%20Lowpass%20Filter.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Drum Humanizer.jsfx" type="effect" desc="Drum Humanizer.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Drum Humanizer.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Drum%20Humanizer.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="FFT Stereo BrickWall Filter.jsfx" type="effect" desc="FFT Stereo BrickWall Filter.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/FFT Stereo BrickWall Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/FFT%20Stereo%20BrickWall%20Filter.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Instrument Sloppyizer.jsfx" type="effect" desc="Instrument Sloppyizer.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Instrument Sloppyizer.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Instrument%20Sloppyizer.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Interpolated Stereo Highpass Filter.jsfx" type="effect" desc="Interpolated Stereo Highpass Filter.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Interpolated Stereo Highpass Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Interpolated%20Stereo%20Highpass%20Filter.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Interpolated Stereo Lowpass Filter.jsfx" type="effect" desc="Interpolated Stereo Lowpass Filter.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Interpolated Stereo Lowpass Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Interpolated%20Stereo%20Lowpass%20Filter.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Parametric EQ Filter.jsfx" type="effect" desc="Parametric EQ Filter.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Parametric EQ Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Parametric%20EQ%20Filter.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="RekChannel Mono.jsfx" type="effect" desc="RekChannel Mono.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/RekChannel Mono.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/RekChannel%20Mono.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="RekChannel Stereo.jsfx" type="effect" desc="RekChannel Stereo.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/RekChannel Stereo.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/RekChannel%20Stereo.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Two Independant Channels Compression.jsfx" type="effect" desc="Two Independant Channels Compression.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Two Independant Channels Compression.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Two%20Independant%20Channels%20Compression.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Two Linked Channels Compression.jsfx" type="effect" desc="Two Linked Channels Compression.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Two Linked Channels Compression.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/JSFX/Two%20Linked%20Channels%20Compression.jsfx</source>
 </version>
 </reapack>
 
@@ -97,13 +97,13 @@
 
 <reapack name="Rek Nudge Item Volume +6dB.eel" type="script" desc="Rek Nudge Item Volume +6dB.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/Scripts/EEL/Rek Nudge Item Volume +6dB.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/Scripts/EEL/Rek%20Nudge%20Item%20Volume%20+6dB.eel</source>
 </version>
 </reapack>
 
 <reapack name="Rek Nudge Item Volume -6dB.eel" type="script" desc="Rek Nudge Item Volume -6dB.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/Scripts/EEL/Rek Nudge Item Volume -6dB.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/Scripts/EEL/Rek%20Nudge%20Item%20Volume%20-6dB.eel</source>
 </version>
 </reapack>
 
@@ -115,19 +115,19 @@
 
 <reapack name="Rek_Add New Track - Input 1.lua" type="script" desc="Rek_Add New Track - Input 1.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/Rek_Add New Track - Input 1.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/Rek_Add%20New%20Track%20-%20Input%201.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Add New Track - Input 2.lua" type="script" desc="Rek_Add New Track - Input 2.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/Rek_Add New Track - Input 2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/Rek_Add%20New%20Track%20-%20Input%202.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Add New Track - MIDI All.lua" type="script" desc="Rek_Add New Track - MIDI All.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/Rek_Add New Track - MIDI All.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/master/LUA/Rek_Add%20New%20Track%20-%20MIDI%20All.lua</source>
 </version>
 </reapack>
 
