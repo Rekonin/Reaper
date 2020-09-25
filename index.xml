@@ -121,505 +121,505 @@
 
 <reapack name="Rek_Add Plugin to Selected Tracks.lua" type="script" desc="Rek_Add Plugin to Selected Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add Plugin to Selected Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20Plugin%20to%20Selected%20Tracks.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Bounce MIDI to Mono Audio to Next Track.lua" type="script" desc="Rek_Bounce MIDI to Mono Audio to Next Track.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce MIDI to Mono Audio to Next Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20MIDI%20to%20Mono%20Audio%20to%20Next%20Track.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Bounce MIDI to Stereo Audio to Next Track.lua" type="script" desc="Rek_Bounce MIDI to Stereo Audio to Next Track.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce MIDI to Stereo Audio to Next Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20MIDI%20to%20Stereo%20Audio%20to%20Next%20Track.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Command Lookup.lua" type="script" desc="Rek_Command Lookup.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Command Lookup.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Command%20Lookup.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Commit MIDI to Mono Audio.lua" type="script" desc="Rek_Commit MIDI to Mono Audio.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit MIDI to Mono Audio.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20MIDI%20to%20Mono%20Audio.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Commit MIDI to Stereo Audio.lua" type="script" desc="Rek_Commit MIDI to Stereo Audio.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit MIDI to Stereo Audio.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20MIDI%20to%20Stereo%20Audio.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Copy Selection Area of Active Take to New Track.lua" type="script" desc="Rek_Copy Selection Area of Active Take to New Track.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Copy Selection Area of Active Take to New Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Copy%20Selection%20Area%20of%20Active%20Take%20to%20New%20Track.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Create Bus for Selected Tracks OLD.lua" type="script" desc="Rek_Create Bus for Selected Tracks OLD.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create Bus for Selected Tracks OLD.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Bus%20for%20Selected%20Tracks%20OLD.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Create Bus for Selected Tracks.lua" type="script" desc="Rek_Create Bus for Selected Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create Bus for Selected Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Bus%20for%20Selected%20Tracks.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Create Folder for Selected Tracks OLD.lua" type="script" desc="Rek_Create Folder for Selected Tracks OLD.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create Folder for Selected Tracks OLD.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Folder%20for%20Selected%20Tracks%20OLD.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Create Folder for Selected Tracks.lua" type="script" desc="Rek_Create Folder for Selected Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create Folder for Selected Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Folder%20for%20Selected%20Tracks.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_FX Browser.lua" type="script" desc="Rek_FX Browser.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_FX Browser.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_FX%20Browser.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Go to Measure 16.lua" type="script" desc="Rek_Go to Measure 16.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Go to Measure 16.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Go%20to%20Measure%2016.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Grid Switch.lua" type="script" desc="Rek_Grid Switch.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Grid Switch.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Grid%20Switch.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Insert New Track with Receive from Selected Track.lua" type="script" desc="Rek_Insert New Track with Receive from Selected Track.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Insert New Track with Receive from Selected Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Insert%20New%20Track%20with%20Receive%20from%20Selected%20Track.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Insert New Track with Send on Selected Track.lua" type="script" desc="Rek_Insert New Track with Send on Selected Track.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Insert New Track with Send on Selected Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Insert%20New%20Track%20with%20Send%20on%20Selected%20Track.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Item Mixer.lua" type="script" desc="Rek_Item Mixer.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Item Mixer.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Item%20Mixer.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Keep Automation Take.lua" type="script" desc="Rek_Keep Automation Take.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Keep Automation Take.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Keep%20Automation%20Take.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Pan L-R Labeled Tracks.lua" type="script" desc="Rek_Pan L-R Labeled Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Pan L-R Labeled Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Pan%20L-R%20Labeled%20Tracks.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Play from Marker 1.lua" type="script" desc="Rek_Play from Marker 1.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Play from Marker 1.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Play%20from%20Marker%201.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Prepare MIDI Instrument.lua" type="script" desc="Rek_Prepare MIDI Instrument.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Prepare MIDI Instrument.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Prepare%20MIDI%20Instrument.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Prepare Track for Take Automation.lua" type="script" desc="Rek_Prepare Track for Take Automation.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Prepare Track for Take Automation.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Prepare%20Track%20for%20Take%20Automation.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Render Mono Tracks to Stereo.lua" type="script" desc="Rek_Render Mono Tracks to Stereo.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Render Mono Tracks to Stereo.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Render%20Mono%20Tracks%20to%20Stereo.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Replicate Splits on Next Track (Keep Slices).lua" type="script" desc="Rek_Replicate Splits on Next Track (Keep Slices).lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate Splits on Next Track (Keep Slices).lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate%20Splits%20on%20Next%20Track%20(Keep%20Slices).lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Replicate Splits on Next Track.lua" type="script" desc="Rek_Replicate Splits on Next Track.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate Splits on Next Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate%20Splits%20on%20Next%20Track.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Select All Non-Parent Tracks.lua" type="script" desc="Rek_Select All Non-Parent Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select All Non-Parent Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Non-Parent%20Tracks.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Select All Parent Tracks.lua" type="script" desc="Rek_Select All Parent Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select All Parent Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Parent%20Tracks.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Select All Receives.lua" type="script" desc="Rek_Select All Receives.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select All Receives.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Receives.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Select All Sends.lua" type="script" desc="Rek_Select All Sends.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select All Sends.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Sends.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Select All Tracks Named BUS.lua" type="script" desc="Rek_Select All Tracks Named BUS.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select All Tracks Named BUS.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Tracks%20Named%20BUS.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set All Items to -6dB.lua" type="script" desc="Rek_Set All Items to -6dB.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set All Items to -6dB.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Items%20to%20-6dB.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set All Tracks to -6dB.lua" type="script" desc="Rek_Set All Tracks to -6dB.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set All Tracks to -6dB.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Tracks%20to%20-6dB.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 0C.lua" type="script" desc="Rek_Set Selected Track Pan to 0C.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 0C.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%200C.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 25L.lua" type="script" desc="Rek_Set Selected Track Pan to 25L.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 25L.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%2025L.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 25R.lua" type="script" desc="Rek_Set Selected Track Pan to 25R.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 25R.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%2025R.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 50L.lua" type="script" desc="Rek_Set Selected Track Pan to 50L.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 50L.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%2050L.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 50R.lua" type="script" desc="Rek_Set Selected Track Pan to 50R.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 50R.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%2050R.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 75L.lua" type="script" desc="Rek_Set Selected Track Pan to 75L.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 75L.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%2075L.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 75R.lua" type="script" desc="Rek_Set Selected Track Pan to 75R.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 75R.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%2075R.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 100L.lua" type="script" desc="Rek_Set Selected Track Pan to 100L.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 100L.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%20100L.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Pan to 100R.lua" type="script" desc="Rek_Set Selected Track Pan to 100R.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Pan to 100R.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Pan%20to%20100R.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 0%.lua" type="script" desc="Rek_Set Selected Track Width to 0%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Width to 0%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%200%.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 25%.lua" type="script" desc="Rek_Set Selected Track Width to 25%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Width to 25%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2025%.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 50%.lua" type="script" desc="Rek_Set Selected Track Width to 50%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Width to 50%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2050%.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 75%.lua" type="script" desc="Rek_Set Selected Track Width to 75%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Width to 75%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%2075%.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Set Selected Track Width to 100%.lua" type="script" desc="Rek_Set Selected Track Width to 100%.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set Selected Track Width to 100%.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Selected%20Track%20Width%20to%20100%.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Addictive Drums 2.lua" type="script" desc="Rek_Setup VSTi Addictive Drums 2.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Addictive Drums 2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Addictive%20Drums%202.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Ample Bass Jazz III.lua" type="script" desc="Rek_Setup VSTi Ample Bass Jazz III.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Ample Bass Jazz III.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Ample%20Bass%20Jazz%20III.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi AmpliTube 4.lua" type="script" desc="Rek_Setup VSTi AmpliTube 4.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi AmpliTube 4.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20AmpliTube%204.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi ARP 2600 V3.lua" type="script" desc="Rek_Setup VSTi ARP 2600 V3.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi ARP 2600 V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20ARP%202600%20V3.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Battery 4.lua" type="script" desc="Rek_Setup VSTi Battery 4.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Battery 4.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Battery%204.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi BIAS FX 2.lua" type="script" desc="Rek_Setup VSTi BIAS FX 2.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi BIAS FX 2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20BIAS%20FX%202.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Caliburn.lua" type="script" desc="Rek_Setup VSTi Caliburn.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Caliburn.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Caliburn.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Cerberus.lua" type="script" desc="Rek_Setup VSTi Cerberus.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Cerberus.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Cerberus.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Charlatan.lua" type="script" desc="Rek_Setup VSTi Charlatan.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Charlatan.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Charlatan.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi CS-80 V3.lua" type="script" desc="Rek_Setup VSTi CS-80 V3.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi CS-80 V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20CS-80%20V3.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi D-50.lua" type="script" desc="Rek_Setup VSTi D-50.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi D-50.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20D-50.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Hive.lua" type="script" desc="Rek_Setup VSTi Hive.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Hive.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Hive.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi JUNO-106.lua" type="script" desc="Rek_Setup VSTi JUNO-106.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi JUNO-106.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20JUNO-106.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Jup-8 V3.lua" type="script" desc="Rek_Setup VSTi Jup-8 V3.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Jup-8 V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Jup-8%20V3.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Kontakt.lua" type="script" desc="Rek_Setup VSTi Kontakt.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Kontakt.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Kontakt.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi LABS.lua" type="script" desc="Rek_Setup VSTi LABS.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi LABS.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20LABS.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Massive.lua" type="script" desc="Rek_Setup VSTi Massive.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Massive.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Massive.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Mellotron V.lua" type="script" desc="Rek_Setup VSTi Mellotron V.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Mellotron V.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Mellotron%20V.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Mika Micro.lua" type="script" desc="Rek_Setup VSTi Mika Micro.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Mika Micro.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Mika%20Micro.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Mini V3.lua" type="script" desc="Rek_Setup VSTi Mini V3.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Mini V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Mini%20V3.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi OB-Xa V.lua" type="script" desc="Rek_Setup VSTi OB-Xa V.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi OB-Xa V.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20OB-Xa%20V.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi OB-Xd.lua" type="script" desc="Rek_Setup VSTi OB-Xd.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi OB-Xd.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20OB-Xd.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi PG-8X.lua" type="script" desc="Rek_Setup VSTi PG-8X.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi PG-8X.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20PG-8X.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Piano V2.lua" type="script" desc="Rek_Setup VSTi Piano V2.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Piano V2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Piano%20V2.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Prophet V3.lua" type="script" desc="Rek_Setup VSTi Prophet V3.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Prophet V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Prophet%20V3.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Repro-1.lua" type="script" desc="Rek_Setup VSTi Repro-1.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Repro-1.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Repro-1.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Repro-5.lua" type="script" desc="Rek_Setup VSTi Repro-5.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Repro-5.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Repro-5.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Rhodes.lua" type="script" desc="Rek_Setup VSTi Rhodes.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Rhodes.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Rhodes.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi SEM V2.lua" type="script" desc="Rek_Setup VSTi SEM V2.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi SEM V2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20SEM%20V2.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Serum.lua" type="script" desc="Rek_Setup VSTi Serum.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Serum.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Serum.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Sitala.lua" type="script" desc="Rek_Setup VSTi Sitala.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Sitala.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Sitala.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Speedrum.lua" type="script" desc="Rek_Setup VSTi Speedrum.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Speedrum.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Speedrum.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Superior Drummer 3.lua" type="script" desc="Rek_Setup VSTi Superior Drummer 3.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Superior Drummer 3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Superior%20Drummer%203.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi T-Force Alpha Plus.lua" type="script" desc="Rek_Setup VSTi T-Force Alpha Plus.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi T-Force Alpha Plus.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20T-Force%20Alpha%20Plus.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi VK-1 Viking.lua" type="script" desc="Rek_Setup VSTi VK-1 Viking.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi VK-1 Viking.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20VK-1%20Viking.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Setup VSTi Wurli V2.lua" type="script" desc="Rek_Setup VSTi Wurli V2.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup VSTi Wurli V2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Wurli%20V2.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Solo All Parent Tracks.lua" type="script" desc="Rek_Solo All Parent Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Solo All Parent Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Solo%20All%20Parent%20Tracks.lua</source>
 </version>
 </reapack>
 
 <reapack name="Rek_Toggle Mute All The Things.lua" type="script" desc="Rek_Toggle Mute All The Things.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle Mute All The Things.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle%20Mute%20All%20The%20Things.lua</source>
 </version>
 </reapack>
 
