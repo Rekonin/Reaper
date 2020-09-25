@@ -85,13 +85,13 @@
 
 <reapack name="Rek Nudge Item Volume +6dB.eel" type="script" desc="Rek Nudge Item Volume +6dB.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek%20Nudge%20Item%20Volume%20+6dB.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20+6dB.eel</source>
 </version>
 </reapack>
 
 <reapack name="Rek Nudge Item Volume -6dB.eel" type="script" desc="Rek Nudge Item Volume -6dB.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek%20Nudge%20Item%20Volume%20-6dB.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20-6dB.eel</source>
 </version>
 </reapack>
 
