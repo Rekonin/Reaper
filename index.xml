@@ -3,18 +3,6 @@
 
 
 
---[[
-
-<reapack name="" type="" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/</source>
-</version>
-</reapack>
-
---]]
-
-
-
 <category name="JSFX">
 
 <reapack name="Butterworth Highpass Filter.jsfx" type="effect" desc="Butterworth Highpass Filter.jsfx">
@@ -97,13 +85,13 @@
 
 <reapack name="Rek Nudge Item Volume +6dB.eel" type="script" desc="Rek Nudge Item Volume +6dB.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/Scripts/EEL/Rek Nudge Item Volume +6dB.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/Scripts/EEL/Rek%20Nudge%20Item%20Volume%20+6dB.eel</source>
 </version>
 </reapack>
 
 <reapack name="Rek Nudge Item Volume -6dB.eel" type="script" desc="Rek Nudge Item Volume -6dB.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/Scripts/EEL/Rek Nudge Item Volume -6dB.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/Scripts/EEL/Rek%20Nudge%20Item%20Volume%20-6dB.eel</source>
 </version>
 </reapack>
 
@@ -130,112 +118,6 @@
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20New%20Track%20-%20MIDI%20All.lua</source>
 </version>
 </reapack>
-
---[[
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
-</version>
-</reapack>
-
---]]
 
 </category>
 
