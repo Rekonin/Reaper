@@ -227,6 +227,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Open MIDI Item.lua" type="script" desc="Rek_Open MIDI Item.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Open%20MIDI%20Item.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Pan L-R Labeled Tracks.lua" type="script" desc="Rek_Pan L-R Labeled Tracks.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Pan%20L-R%20Labeled%20Tracks.lua</source>
