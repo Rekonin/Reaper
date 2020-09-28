@@ -545,6 +545,24 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Trim After Time Selection.lua" type="script" desc="Rek_Trim After Time Selection.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Trim%20After%20Time%20Selection.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Trim Before Time Selection.lua" type="script" desc="Rek_Trim Before Time Selection.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Trim%20Before%20Time%20Selection.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Trim To Time Selection.lua" type="script" desc="Rek_Trim To Time Selection.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Trim%20To%20Time%20Selection.lua</source>
+</version>
+</reapack>
+
 </category>
 
 
