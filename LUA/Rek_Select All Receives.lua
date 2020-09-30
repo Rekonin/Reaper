@@ -1,3 +1,5 @@
+--Based on script by me2beats
+
 function nothing()
 end
 

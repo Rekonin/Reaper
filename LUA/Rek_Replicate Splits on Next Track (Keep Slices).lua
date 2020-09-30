@@ -1,3 +1,5 @@
+--Adapted from script, original author: X-Raym
+
 function save_item_selection()
   save_item = {}
   for f = 0, count_sel_items - 1 do

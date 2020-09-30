@@ -1,7 +1,7 @@
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
 
-reaper.Main_OnCommand(41147, 0);
+reaper.Main_OnCommand(41147, 0); --Track: Insert new track at end of mixer
 
 tracknum = reaper.CountSelectedTracks(0)
 

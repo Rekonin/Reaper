@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Addictive Drums 2"
 local NamePreset = "My Default"
 local TrackName = "Drums AD2"

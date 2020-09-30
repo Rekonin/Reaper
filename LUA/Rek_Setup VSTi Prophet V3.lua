@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Prophet V3"
 local NamePreset = "My Default"
 local TrackName = "Synth Prophet V3"

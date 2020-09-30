@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Sitala"
 local NamePreset = "My Default"
 local TrackName = "Drums Sitala"

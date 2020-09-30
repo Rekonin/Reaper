@@ -1,3 +1,5 @@
+--Adapted from script, original author: MPL
+
 local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
 
 local tracks = r.CountSelectedTracks()

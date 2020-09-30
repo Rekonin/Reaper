@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Jup-8 V3"
 local NamePreset = "My Default"
 local TrackName = "Synth Jup-8 V3"

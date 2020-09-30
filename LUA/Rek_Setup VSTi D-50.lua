@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "D-50"
 local NamePreset = "My Default"
 local TrackName = "Synth D-50"

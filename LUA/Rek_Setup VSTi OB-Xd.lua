@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "OB-Xd"
 local NamePreset = "My Default"
 local TrackName = "Synth OB-Xd"

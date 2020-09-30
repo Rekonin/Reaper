@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Battery 4"
 local NamePreset = "My Default"
 local TrackName = "Drums Battery"

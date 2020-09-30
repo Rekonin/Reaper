@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Kontakt"
 local NamePreset = ""
 local TrackName = "Inst Kontakt"

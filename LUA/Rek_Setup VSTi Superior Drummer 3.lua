@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Superior Drummer 3"
 local NamePreset = "My Default"
 local TrackName = "Drums SD3"

@@ -323,12 +323,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Ample Bass Jazz III.lua" type="script" desc="Rek_Setup VSTi Ample Bass Jazz III.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Ample%20Bass%20Jazz%20III.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Setup VSTi AmpliTube 4.lua" type="script" desc="Rek_Setup VSTi AmpliTube 4.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20AmpliTube%204.lua</source>

@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "ARP 2600 V3"
 local NamePreset = "My Default"
 local TrackName = "Synth ARP 2600"

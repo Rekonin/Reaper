@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "T-Force Alpha Plus x64"
 local NamePreset = "My Default"
 local TrackName = "Synth T-Force Alpha Plus"

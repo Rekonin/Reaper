@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "JUNO-106"
 local NamePreset = "My Default"
 local TrackName = "Synth JUNO-106"

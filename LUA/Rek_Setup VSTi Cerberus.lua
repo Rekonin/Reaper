@@ -1,3 +1,5 @@
+--Adapted from script, original author: Archie
+
 local NameFX = "Kuassa Cerberus Bass Amp"
 local NamePreset = "My Default"
 local TrackName = "Bass Cerberus"

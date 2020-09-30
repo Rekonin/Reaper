@@ -1,3 +1,5 @@
+--Original author: MPL
+
 script_title = "Copy selection area of active take to new track"
 
 reaper.Undo_BeginBlock()
