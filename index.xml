@@ -515,6 +515,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Setup VSTi Vital.lua" type="script" desc="Rek_Setup VSTi Vital.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Vital.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Setup VSTi VK-1 Viking.lua" type="script" desc="Rek_Setup VSTi VK-1 Viking.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20VK-1%20Viking.lua</source>
