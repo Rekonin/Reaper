@@ -305,6 +305,18 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Select All Tracks with Receives elsewhere.lua" type="script" desc="Rek_Select All Tracks with Receives elsewhere.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Tracks%20with%20Receives%20elsewhere.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Select All Tracks with Sends here.lua" type="script" desc="Rek_Select All Tracks with Sends here.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Tracks%20with%20Sends%20here.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Set All Items to -6dB.lua" type="script" desc="Rek_Set All Items to -6dB.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Items%20to%20-6dB.lua</source>
@@ -383,15 +395,21 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Setup VSTi Jun-6 V.lua" type="script" desc="Rek_Setup VSTi Jun-6 V.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Jun-6%20V.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Setup VSTi JUNO-106.lua" type="script" desc="Rek_Setup VSTi JUNO-106.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20JUNO-106.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Jup-8 V3.lua" type="script" desc="Rek_Setup VSTi Jup-8 V3.lua">
+<reapack name="Rek_Setup VSTi Jup-8 V4.lua" type="script" desc="Rek_Setup VSTi Jup-8 V4.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Jup-8%20V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Jup-8%20V4.lua</source>
 </version>
 </reapack>
 

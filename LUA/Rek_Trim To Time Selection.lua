@@ -1,4 +1,4 @@
- local Only_Items_In_Time_Selection = 0
+local Only_Items_In_Time_Selection = 0
 
     local function MODULE(file);
         local E,A=pcall(dofile,file);if not(E)then;reaper.ShowConsoleMsg("\n\nError - "..debug.getinfo(1,'S').source:match('.*[/\\](.+)')..'\nMISSING FILE / ОТСУТСТВУЕТ ФАЙЛ!\n'..file:gsub('\\','/'))return;end;
@@ -42,9 +42,9 @@
                 Arc.SetMediaItemLeftTrim2(startTime ,sel_item);
                 reaper.SetMediaItemLength(sel_item,endTime-startTime,true);
             end;
-        end;
+       end;
     end;
 
-    reaper.Undo_EndBlock("Trim Extend selected of items to time selection",-1)
-    reaper.PreventUIRefresh(-1)
-    reaper.UpdateArrange()
+reaper.Undo_EndBlock("Trim Extend selected of items to time selection",-1)
+reaper.PreventUIRefresh(-1)
+reaper.UpdateArrange()

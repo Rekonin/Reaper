@@ -1,5 +1,3 @@
---Original author: Archie
-
 local MIDI_Bus =  nil
 local MIDI_Chan = nil
 
