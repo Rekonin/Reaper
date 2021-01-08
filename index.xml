@@ -341,12 +341,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi ARP 2600 V3.lua" type="script" desc="Rek_Setup VSTi ARP 2600 V3.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20ARP%202600%20V3.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Setup VSTi Battery 4.lua" type="script" desc="Rek_Setup VSTi Battery 4.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Battery%204.lua</source>
@@ -386,6 +380,12 @@
 <reapack name="Rek_Setup VSTi D-50.lua" type="script" desc="Rek_Setup VSTi D-50.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20D-50.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi DX7 V.lua" type="script" desc="Rek_Setup VSTi DX7 V.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20DX7%20V.lua</source>
 </version>
 </reapack>
 
