@@ -1,8 +1,8 @@
 --Adapted from script, original author: Archie
 
-local NameFX = "ARP 2600 V3"
+local NameFX = "DX7 V"
 local NamePreset = "My Default"
-local TrackName = "Synth ARP 2600"
+local TrackName = "Synth DX7"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -25,5 +25,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi ARP 2600 V3",-1);
+reaper.Undo_EndBlock("Setup VSTi DX7 V",-1);
 reaper.PreventUIRefresh(-1);
