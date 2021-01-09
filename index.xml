@@ -329,225 +329,363 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Addictive Drums 2.lua" type="script" desc="Rek_Setup VSTi Addictive Drums 2.lua">
+<reapack name="Rek_Setup VSTi Audio 01.lua" type="script" desc="Rek_Setup VSTi Audio 01.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Addictive%20Drums%202.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2001.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi AmpliTube 4.lua" type="script" desc="Rek_Setup VSTi AmpliTube 4.lua">
+<reapack name="Rek_Setup VSTi Audio 02.lua" type="script" desc="Rek_Setup VSTi Audio 02.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20AmpliTube%204.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2002.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Battery 4.lua" type="script" desc="Rek_Setup VSTi Battery 4.lua">
+<reapack name="Rek_Setup VSTi Audio 03.lua" type="script" desc="Rek_Setup VSTi Audio 03.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Battery%204.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2003.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi BIAS FX 2.lua" type="script" desc="Rek_Setup VSTi BIAS FX 2.lua">
+<reapack name="Rek_Setup VSTi Audio 04.lua" type="script" desc="Rek_Setup VSTi Audio 04.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20BIAS%20FX%202.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2004.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Caliburn.lua" type="script" desc="Rek_Setup VSTi Caliburn.lua">
+<reapack name="Rek_Setup VSTi Audio 05.lua" type="script" desc="Rek_Setup VSTi Audio 05.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Caliburn.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2005.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Cerberus.lua" type="script" desc="Rek_Setup VSTi Cerberus.lua">
+<reapack name="Rek_Setup VSTi Audio 06.lua" type="script" desc="Rek_Setup VSTi Audio 06.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Cerberus.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2006.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Charlatan.lua" type="script" desc="Rek_Setup VSTi Charlatan.lua">
+<reapack name="Rek_Setup VSTi Audio 07.lua" type="script" desc="Rek_Setup VSTi Audio 07.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Charlatan.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2007.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi CS-80 V3.lua" type="script" desc="Rek_Setup VSTi CS-80 V3.lua">
+<reapack name="Rek_Setup VSTi Audio 08.lua" type="script" desc="Rek_Setup VSTi Audio 08.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20CS-80%20V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2008.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi D-50.lua" type="script" desc="Rek_Setup VSTi D-50.lua">
+<reapack name="Rek_Setup VSTi Audio 09.lua" type="script" desc="Rek_Setup VSTi Audio 09.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20D-50.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2009.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi DX7 V.lua" type="script" desc="Rek_Setup VSTi DX7 V.lua">
+<reapack name="Rek_Setup VSTi Audio 10.lua" type="script" desc="Rek_Setup VSTi Audio 10.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20DX7%20V.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Audio%2010.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Hive.lua" type="script" desc="Rek_Setup VSTi Hive.lua">
+<reapack name="Rek_Setup VSTi MIDI 01.lua" type="script" desc="Rek_Setup VSTi MIDI 01.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Hive.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2001.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Jun-6 V.lua" type="script" desc="Rek_Setup VSTi Jun-6 V.lua">
+<reapack name="Rek_Setup VSTi MIDI 02.lua" type="script" desc="Rek_Setup VSTi MIDI 02.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Jun-6%20V.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2002.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi JUNO-106.lua" type="script" desc="Rek_Setup VSTi JUNO-106.lua">
+<reapack name="Rek_Setup VSTi MIDI 03.lua" type="script" desc="Rek_Setup VSTi MIDI 03.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20JUNO-106.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2003.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Jup-8 V4.lua" type="script" desc="Rek_Setup VSTi Jup-8 V4.lua">
+<reapack name="Rek_Setup VSTi MIDI 04.lua" type="script" desc="Rek_Setup VSTi MIDI 04.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Jup-8%20V4.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2004.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Kontakt.lua" type="script" desc="Rek_Setup VSTi Kontakt.lua">
+<reapack name="Rek_Setup VSTi MIDI 05.lua" type="script" desc="Rek_Setup VSTi MIDI 05.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Kontakt.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2005.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi LABS.lua" type="script" desc="Rek_Setup VSTi LABS.lua">
+<reapack name="Rek_Setup VSTi MIDI 06.lua" type="script" desc="Rek_Setup VSTi MIDI 06.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20LABS.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2006.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Massive.lua" type="script" desc="Rek_Setup VSTi Massive.lua">
+<reapack name="Rek_Setup VSTi MIDI 07.lua" type="script" desc="Rek_Setup VSTi MIDI 07.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Massive.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2007.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Mellotron V.lua" type="script" desc="Rek_Setup VSTi Mellotron V.lua">
+<reapack name="Rek_Setup VSTi MIDI 08.lua" type="script" desc="Rek_Setup VSTi MIDI 08.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Mellotron%20V.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2008.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Mika Micro.lua" type="script" desc="Rek_Setup VSTi Mika Micro.lua">
+<reapack name="Rek_Setup VSTi MIDI 09.lua" type="script" desc="Rek_Setup VSTi MIDI 09.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Mika%20Micro.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2009.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Mini V3.lua" type="script" desc="Rek_Setup VSTi Mini V3.lua">
+<reapack name="Rek_Setup VSTi MIDI 10.lua" type="script" desc="Rek_Setup VSTi MIDI 10.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Mini%20V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2010.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi OB-Xa V.lua" type="script" desc="Rek_Setup VSTi OB-Xa V.lua">
+<reapack name="Rek_Setup VSTi MIDI 11.lua" type="script" desc="Rek_Setup VSTi MIDI 11.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20OB-Xa%20V.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2011.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi OB-Xd.lua" type="script" desc="Rek_Setup VSTi OB-Xd.lua">
+<reapack name="Rek_Setup VSTi MIDI 12.lua" type="script" desc="Rek_Setup VSTi MIDI 12.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20OB-Xd.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2012.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi PG-8X.lua" type="script" desc="Rek_Setup VSTi PG-8X.lua">
+<reapack name="Rek_Setup VSTi MIDI 13.lua" type="script" desc="Rek_Setup VSTi MIDI 13.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20PG-8X.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2013.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Piano V2.lua" type="script" desc="Rek_Setup VSTi Piano V2.lua">
+<reapack name="Rek_Setup VSTi MIDI 14.lua" type="script" desc="Rek_Setup VSTi MIDI 14.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Piano%20V2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2014.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Prophet V3.lua" type="script" desc="Rek_Setup VSTi Prophet V3.lua">
+<reapack name="Rek_Setup VSTi MIDI 15.lua" type="script" desc="Rek_Setup VSTi MIDI 15.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Prophet%20V3.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2015.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Repro-1.lua" type="script" desc="Rek_Setup VSTi Repro-1.lua">
+<reapack name="Rek_Setup VSTi MIDI 16.lua" type="script" desc="Rek_Setup VSTi MIDI 16.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Repro-1.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2016.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Repro-5.lua" type="script" desc="Rek_Setup VSTi Repro-5.lua">
+<reapack name="Rek_Setup VSTi MIDI 17.lua" type="script" desc="Rek_Setup VSTi MIDI 17.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Repro-5.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2017.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Rhodes.lua" type="script" desc="Rek_Setup VSTi Rhodes.lua">
+<reapack name="Rek_Setup VSTi MIDI 18.lua" type="script" desc="Rek_Setup VSTi MIDI 18.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Rhodes.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2018.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi SEM V2.lua" type="script" desc="Rek_Setup VSTi SEM V2.lua">
+<reapack name="Rek_Setup VSTi MIDI 19.lua" type="script" desc="Rek_Setup VSTi MIDI 19.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20SEM%20V2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2019.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Serum.lua" type="script" desc="Rek_Setup VSTi Serum.lua">
+<reapack name="Rek_Setup VSTi MIDI 20.lua" type="script" desc="Rek_Setup VSTi MIDI 20.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Serum.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2020.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Sitala.lua" type="script" desc="Rek_Setup VSTi Sitala.lua">
+<reapack name="Rek_Setup VSTi MIDI 21.lua" type="script" desc="Rek_Setup VSTi MIDI 21.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Sitala.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2021.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Speedrum.lua" type="script" desc="Rek_Setup VSTi Speedrum.lua">
+<reapack name="Rek_Setup VSTi MIDI 22.lua" type="script" desc="Rek_Setup VSTi MIDI 22.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Speedrum.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2022.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Superior Drummer 3.lua" type="script" desc="Rek_Setup VSTi Superior Drummer 3.lua">
+<reapack name="Rek_Setup VSTi MIDI 23.lua" type="script" desc="Rek_Setup VSTi MIDI 23.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Superior%20Drummer%203.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2023.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi T-Force Alpha Plus.lua" type="script" desc="Rek_Setup VSTi T-Force Alpha Plus.lua">
+<reapack name="Rek_Setup VSTi MIDI 24.lua" type="script" desc="Rek_Setup VSTi MIDI 24.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20T-Force%20Alpha%20Plus.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2024.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Vital.lua" type="script" desc="Rek_Setup VSTi Vital.lua">
+<reapack name="Rek_Setup VSTi MIDI 25.lua" type="script" desc="Rek_Setup VSTi MIDI 25.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Vital.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2025.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi VK-1 Viking.lua" type="script" desc="Rek_Setup VSTi VK-1 Viking.lua">
+<reapack name="Rek_Setup VSTi MIDI 26.lua" type="script" desc="Rek_Setup VSTi MIDI 26.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20VK-1%20Viking.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2026.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Setup VSTi Wurli V2.lua" type="script" desc="Rek_Setup VSTi Wurli V2.lua">
+<reapack name="Rek_Setup VSTi MIDI 27.lua" type="script" desc="Rek_Setup VSTi MIDI 27.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20Wurli%20V2.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2027.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 28.lua" type="script" desc="Rek_Setup VSTi MIDI 28.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2028.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 29.lua" type="script" desc="Rek_Setup VSTi MIDI 29.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2029.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 30.lua" type="script" desc="Rek_Setup VSTi MIDI 30.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2030.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 31.lua" type="script" desc="Rek_Setup VSTi MIDI 31.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2031.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 32.lua" type="script" desc="Rek_Setup VSTi MIDI 32.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2032.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 33.lua" type="script" desc="Rek_Setup VSTi MIDI 33.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2033.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 34.lua" type="script" desc="Rek_Setup VSTi MIDI 34.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2034.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 35.lua" type="script" desc="Rek_Setup VSTi MIDI 35.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2035.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 36.lua" type="script" desc="Rek_Setup VSTi MIDI 36.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2036.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 37.lua" type="script" desc="Rek_Setup VSTi MIDI 37.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2037.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 38.lua" type="script" desc="Rek_Setup VSTi MIDI 38.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2038.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 39.lua" type="script" desc="Rek_Setup VSTi MIDI 39.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2039.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 40.lua" type="script" desc="Rek_Setup VSTi MIDI 40.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2040.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 41.lua" type="script" desc="Rek_Setup VSTi MIDI 41.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2041.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 42.lua" type="script" desc="Rek_Setup VSTi MIDI 42.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2042.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 43.lua" type="script" desc="Rek_Setup VSTi MIDI 43.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2043.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 44.lua" type="script" desc="Rek_Setup VSTi MIDI 44.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2044.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 45.lua" type="script" desc="Rek_Setup VSTi MIDI 45.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2045.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 46.lua" type="script" desc="Rek_Setup VSTi MIDI 46.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2046.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 47.lua" type="script" desc="Rek_Setup VSTi MIDI 47.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2047.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 48.lua" type="script" desc="Rek_Setup VSTi MIDI 48.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2048.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 49.lua" type="script" desc="Rek_Setup VSTi MIDI 49.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2049.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Setup VSTi MIDI 50.lua" type="script" desc="Rek_Setup VSTi MIDI 50.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Setup%20VSTi%20MIDI%2050.lua</source>
 </version>
 </reapack>
 
