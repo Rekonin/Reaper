@@ -1,6 +1,6 @@
-local NameFX = "D-50"
+local NameFX = "Jup-8 V4"
 local NamePreset = "My Default"
-local TrackName = "Synth D-50"
+local TrackName = "Synth Jup-8"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi D-50",-1);
+reaper.Undo_EndBlock("Setup VSTi Jup-8",-1);
 reaper.PreventUIRefresh(-1);
