@@ -1,6 +1,6 @@
-local NameFX = ""
+local NameFX = "B-3 V2"
 local NamePreset = "My Default"
-local TrackName = ""
+local TrackName = "Keys B-3 Organ"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi ",-1);
+reaper.Undo_EndBlock("Setup VSTi B-3 Organ",-1);
 reaper.PreventUIRefresh(-1);

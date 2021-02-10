@@ -1,4 +1,4 @@
-local NameFX = "Addictive Keys"
+local NameFX = "Lounge Lizard EP-4"
 local NamePreset = "My Default"
 local TrackName = "Keys Rhodes"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Rhodes",-1);
+reaper.Undo_EndBlock("Setup VSTi Lounge Lizard EP-4",-1);
 reaper.PreventUIRefresh(-1);

@@ -1,6 +1,6 @@
-local NameFX = "Charlatan"
+local NameFX = ""
 local NamePreset = "My Default"
-local TrackName = "Synth Charlatan"
+local TrackName = ""
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Charlatan",-1);
+reaper.Undo_EndBlock("Setup VSTi ",-1);
 reaper.PreventUIRefresh(-1);

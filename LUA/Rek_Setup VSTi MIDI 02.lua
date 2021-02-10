@@ -1,6 +1,6 @@
-local NameFX = "Addictive Drums 2"
+local NameFX = ""
 local NamePreset = "My Default"
-local TrackName = "Addictive Drums 2"
+local TrackName = ""
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Addictive Drums 2",-1);
+reaper.Undo_EndBlock("Setup VSTi ",-1);
 reaper.PreventUIRefresh(-1);

@@ -1,6 +1,6 @@
-local NameFX = ""
+local NameFX = "Ampeg SVTVR Classic"
 local NamePreset = "My Default"
-local TrackName = "AUDIO INSTRUMENT"
+local TrackName = "Bass Ampeg SVT"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi AUDIO INSTRUMENT",-1);
+reaper.Undo_EndBlock("Setup VSTi Ampeg SVTVR Classic",-1);
 reaper.PreventUIRefresh(-1);

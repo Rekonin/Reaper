@@ -1,6 +1,6 @@
-local NameFX = ""
+local NameFX = "Mini V3"
 local NamePreset = "My Default"
-local TrackName = ""
+local TrackName = "Synth Moog Mini V "
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi ",-1);
+reaper.Undo_EndBlock("Setup VSTi Moog Mini V",-1);
 reaper.PreventUIRefresh(-1);

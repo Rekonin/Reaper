@@ -1,6 +1,6 @@
 local NameFX = "Model 72 Synthesizer System"
 local NamePreset = "My Default"
-local TrackName = "Synth Mini Moog"
+local TrackName = "Synth Minimoog 72"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

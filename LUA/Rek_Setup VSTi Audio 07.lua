@@ -1,6 +1,6 @@
-local NameFX = ""
+local NameFX = "Marshall Bluesbreaker 1962"
 local NamePreset = "My Default"
-local TrackName = "AUDIO INSTRUMENT"
+local TrackName = "Marshall Bluesbreaker"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi AUDIO INSTRUMENT",-1);
+reaper.Undo_EndBlock("Setup VSTi Marshall Bluesbreaker",-1);
 reaper.PreventUIRefresh(-1);
