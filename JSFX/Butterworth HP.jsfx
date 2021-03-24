@@ -1,4 +1,4 @@
-desc:Butterworth Highpass Filter
+desc:Butterworth HP
 
 import cookdsp.jsfx-inc
 

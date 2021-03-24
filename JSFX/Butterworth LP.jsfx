@@ -1,4 +1,4 @@
-desc:Butterworth Lowpass Filter
+desc:Butterworth LP
 
 import cookdsp.jsfx-inc
 

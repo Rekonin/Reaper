@@ -5,15 +5,21 @@
 
 <category name="JSFX">
 
-<reapack name="Butterworth Highpass Filter.jsfx" type="effect" desc="Butterworth Highpass Filter.jsfx">
+<reapack name="Butterworth HP.jsfx" type="effect" desc="Butterworth HP.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Butterworth%20Highpass%20Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Butterworth%20HP.jsfx</source>
 </version>
 </reapack>
 
-<reapack name="Butterworth Lowpass Filter.jsfx" type="effect" desc="Butterworth Lowpass Filter.jsfx">
+<reapack name="Butterworth LP.jsfx" type="effect" desc="Butterworth LP.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Butterworth%20Lowpass%20Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Butterworth%20LP.jsfx</source>
+</version>
+</reapack>
+
+<reapack name="Channel Strip.jsfx" type="effect" desc="Channel Strip.jsfx">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Channel%20Strip.jsfx</source>
 </version>
 </reapack>
 
@@ -23,9 +29,9 @@
 </version>
 </reapack>
 
-<reapack name="FFT Stereo BrickWall Filter.jsfx" type="effect" desc="FFT Stereo BrickWall Filter.jsfx">
+<reapack name="Expander.jsfx" type="effect" desc="Expander.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/FFT%20Stereo%20BrickWall%20Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Expander.jsfx</source>
 </version>
 </reapack>
 
@@ -35,15 +41,15 @@
 </version>
 </reapack>
 
-<reapack name="Interpolated Stereo Highpass Filter.jsfx" type="effect" desc="Interpolated Stereo Highpass Filter.jsfx">
+<reapack name="Low Ender.jsfx" type="effect" desc="Low Ender.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Interpolated%20Stereo%20Highpass%20Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Low%20Ender.jsfx</source>
 </version>
 </reapack>
 
-<reapack name="Interpolated Stereo Lowpass Filter.jsfx" type="effect" desc="Interpolated Stereo Lowpass Filter.jsfx">
+<reapack name="MV3.jsfx" type="effect" desc="MV3.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Interpolated%20Stereo%20Lowpass%20Filter.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/MV3.jsfx</source>
 </version>
 </reapack>
 
@@ -53,27 +59,9 @@
 </version>
 </reapack>
 
-<reapack name="RekChannel Mono.jsfx" type="effect" desc="RekChannel Mono.jsfx">
+<reapack name="Stereo Compressor.jsfx" type="effect" desc="Stereo Compressor.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/RekChannel%20Mono.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="RekChannel Stereo.jsfx" type="effect" desc="RekChannel Stereo.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/RekChannel%20Stereo.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Two Independant Channels Compression.jsfx" type="effect" desc="Two Independant Channels Compression.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Two%20Independant%20Channels%20Compression.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Two Linked Channels Compression.jsfx" type="effect" desc="Two Linked Channels Compression.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Two%20Linked%20Channels%20Compression.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Stereo%20Compressor.jsfx</source>
 </version>
 </reapack>
 
