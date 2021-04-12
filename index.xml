@@ -113,15 +113,15 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Bounce MIDI to Mono Audio to Next Track.lua" type="script" desc="Rek_Bounce MIDI to Mono Audio to Next Track.lua">
+<reapack name="Rek_Bounce to Mono Audio.lua" type="script" desc="Rek_Bounce to Mono Audio.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20MIDI%20to%20Mono%20Audio%20to%20Next%20Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20to%20Mono%20Audio.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Bounce MIDI to Stereo Audio to Next Track.lua" type="script" desc="Rek_Bounce MIDI to Stereo Audio to Next Track.lua">
+<reapack name="Rek_Bounce to Stereo Audio.lua" type="script" desc="Rek_Bounce to Stereo Audio.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20MIDI%20to%20Stereo%20Audio%20to%20Next%20Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20to%20Stereo%20Audio.lua</source>
 </version>
 </reapack>
 
@@ -131,15 +131,15 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Commit MIDI to Mono Audio.lua" type="script" desc="Rek_Commit MIDI to Mono Audio.lua">
+<reapack name="Rek_Commit to Mono Audio.lua" type="script" desc="Rek_Commit to Mono Audio.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20MIDI%20to%20Mono%20Audio.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20to%20Mono%20Audio.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Commit MIDI to Stereo Audio.lua" type="script" desc="Rek_Commit MIDI to Stereo Audio.lua">
+<reapack name="Rek_Commit to Stereo Audio.lua" type="script" desc="Rek_Commit to Stereo Audio.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20MIDI%20to%20Stereo%20Audio.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20to%20Stereo%20Audio.lua</source>
 </version>
 </reapack>
 
@@ -236,12 +236,6 @@
 <reapack name="Rek_Prepare MIDI Instrument.lua" type="script" desc="Rek_Prepare MIDI Instrument.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Prepare%20MIDI%20Instrument.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Prepare Track for Take Automation.lua" type="script" desc="Rek_Prepare Track for Take Automation.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Prepare%20Track%20for%20Take%20Automation.lua</source>
 </version>
 </reapack>
 
