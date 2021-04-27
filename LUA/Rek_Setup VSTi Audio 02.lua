@@ -1,6 +1,6 @@
-local NameFX = "BIAS FX 2"
+local NameFX = "Slammer"
 --local NamePreset = "My Default"
-local TrackName = "BIAS FX 2"
+local TrackName = "Slammer"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi BIAS FX 2",-1);
+reaper.Undo_EndBlock("Setup VSTi Slammer",-1);
 reaper.PreventUIRefresh(-1);
