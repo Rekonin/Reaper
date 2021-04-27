@@ -1,6 +1,6 @@
 local NameFX = "HyBrit"
 local NameFX2 = "ReaVerb"
-local NamePreset = "My Default"
+--local NamePreset = "My Default"
 local TrackName = "HyBrit"
 
 reaper.PreventUIRefresh(1);
@@ -19,7 +19,7 @@ end
 SelTrack = reaper.GetSelectedTrack(0,0);
 reaper.TrackFX_AddByName(SelTrack,NameFX,false,-1)
 reaper.TrackFX_AddByName(SelTrack,NameFX2,false,-1)
-reaper.TrackFX_SetPreset(SelTrack,0,NamePreset)
+--reaper.TrackFX_SetPreset(SelTrack,0,NamePreset)
 if TrackName and TrackName ~= "" then
   reaper.GetSetMediaTrackInfo_String(SelTrack,"P_NAME",TrackName,1)
 end

@@ -1,6 +1,6 @@
 local NameFX = "Model 72 Synthesizer System"
-local NamePreset = "My Default"
-local TrackName = "Synth Minimoog 72"
+--local NamePreset = "My Default"
+local TrackName = "Synth Minimoog"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -17,7 +17,7 @@ end
 
 SelTrack = reaper.GetSelectedTrack(0,0);
 reaper.TrackFX_AddByName(SelTrack,NameFX,false,-1)
-reaper.TrackFX_SetPreset(SelTrack,0,NamePreset)
+--reaper.TrackFX_SetPreset(SelTrack,0,NamePreset)
 if TrackName and TrackName ~= "" then
   reaper.GetSetMediaTrackInfo_String(SelTrack,"P_NAME",TrackName,1)
 end
