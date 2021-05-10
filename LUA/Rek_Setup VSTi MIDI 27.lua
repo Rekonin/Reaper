@@ -1,6 +1,6 @@
 local NameFX = "VST3: Repro-5"
 --local NamePreset = "My Default"
-local TrackName = "Synth Prophet 5"
+local TrackName = "Prophet 5"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

@@ -1,6 +1,6 @@
 local NameFX = "VST3i: D-50"
 --local NamePreset = "My Default"
-local TrackName = "Synth D-50"
+local TrackName = "D-50"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

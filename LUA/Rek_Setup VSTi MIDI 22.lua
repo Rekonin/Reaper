@@ -1,6 +1,6 @@
 local NameFX = "Jup-8 V4"
 --local NamePreset = "My Default"
-local TrackName = "Synth Jup-8"
+local TrackName = "Jup-8"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

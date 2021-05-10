@@ -71,6 +71,30 @@
 
 <category name="EEL">
 
+<reapack name="Rek_Nudge Item Volume +0.1dB.eel" type="script" desc="Rek_Nudge Item Volume +0.1dB.eel">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20+0.1dB.eel</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Nudge Item Volume -0.1dB.eel" type="script" desc="Rek_Nudge Item Volume -0.1dB.eel">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20-0.1dB.eel</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Nudge Item Volume +1dB.eel" type="script" desc="Rek_Nudge Item Volume +1dB.eel">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20+1dB.eel</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Nudge Item Volume -1dB.eel" type="script" desc="Rek_Nudge Item Volume -1dB.eel">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20-1dB.eel</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Nudge Item Volume +6dB.eel" type="script" desc="Rek_Nudge Item Volume +6dB.eel">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20+6dB.eel</source>
@@ -173,15 +197,15 @@
 </version>
 </reapack>
 
-<reapack name="Rek_FX Browser.lua" type="script" desc="Rek_FX Browser.lua">
+<reapack name="Rek_Fade Config 01.lua" type="script" desc="Rek_Fade Config 01.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_FX%20Browser.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Fade%20Config%2001.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Go to Measure 16.lua" type="script" desc="Rek_Go to Measure 16.lua">
+<reapack name="Rek_FX Browser.lua" type="script" desc="Rek_FX Browser.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Go%20to%20Measure%2016.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_FX%20Browser.lua</source>
 </version>
 </reapack>
 
@@ -212,6 +236,18 @@
 <reapack name="Rek_Keep Automation Take.lua" type="script" desc="Rek_Keep Automation Take.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Keep%20Automation%20Take.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Mousewheel Track Height Change.lua" type="script" desc="Rek_Mousewheel Track Height Change.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Mousewheel%20Track%20Height%20Change.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Move Cursor to Measure 16.lua" type="script" desc="Rek_Move Cursor to Measure 16.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Cursor%20to%20Measure%2016.lua</source>
 </version>
 </reapack>
 
@@ -674,6 +710,12 @@
 <reapack name="Rek_Solo All Parent Tracks.lua" type="script" desc="Rek_Solo All Parent Tracks.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Solo%20All%20Parent%20Tracks.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Toggle CC Event Shape.lua" type="script" desc="Rek_Toggle CC Event Shape.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle%20CC%20Event%20Shape.lua</source>
 </version>
 </reapack>
 

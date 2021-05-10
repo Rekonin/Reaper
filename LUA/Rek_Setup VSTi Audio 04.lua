@@ -1,7 +1,6 @@
-local NameFX = "HyBrit"
-local NameFX2 = "ReaVerb"
+local NameFX = "Marshall Silver Jubilee 2555"
 --local NamePreset = "My Default"
-local TrackName = "HyBrit"
+local TrackName = "Marshall Jubilee"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -18,12 +17,11 @@ end
 
 SelTrack = reaper.GetSelectedTrack(0,0);
 reaper.TrackFX_AddByName(SelTrack,NameFX,false,-1)
-reaper.TrackFX_AddByName(SelTrack,NameFX2,false,-1)
 --reaper.TrackFX_SetPreset(SelTrack,0,NamePreset)
 if TrackName and TrackName ~= "" then
   reaper.GetSetMediaTrackInfo_String(SelTrack,"P_NAME",TrackName,1)
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi HyBrit",-1);
+reaper.Undo_EndBlock("Setup VSTi Marshall Jubilee",-1);
 reaper.PreventUIRefresh(-1);

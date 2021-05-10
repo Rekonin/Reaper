@@ -1,6 +1,6 @@
 local NameFX = "Mellotron V"
 --local NamePreset = "My Default"
-local TrackName = "Keys Mellotron"
+local TrackName = "Mellotron"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

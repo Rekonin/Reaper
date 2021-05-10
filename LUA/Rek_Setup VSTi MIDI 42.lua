@@ -1,6 +1,6 @@
 local NameFX = "LABS"
 --local NamePreset = "My Default"
-local TrackName = "Inst LABS"
+local TrackName = "LABS"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

@@ -1,6 +1,6 @@
 local NameFX = "Superior Drummer 3"
 --local NamePreset = "My Default"
-local TrackName = "Superior Drummer 3"
+local TrackName = "SD3"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

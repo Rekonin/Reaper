@@ -1,6 +1,6 @@
 local NameFX = "Vital"
 --local NamePreset = "My Default"
-local TrackName = "Synth Vital"
+local TrackName = "Vital"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

@@ -1,6 +1,6 @@
 local NameFX = "B-3 V2"
 --local NamePreset = "My Default"
-local TrackName = "Keys B-3 Organ"
+local TrackName = "B-3"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

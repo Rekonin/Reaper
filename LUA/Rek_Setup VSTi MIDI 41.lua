@@ -1,6 +1,6 @@
 local NameFX = "Kontakt"
 --local NamePreset = "My Default"
-local TrackName = "Inst Kontakt"
+local TrackName = "Kontakt"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

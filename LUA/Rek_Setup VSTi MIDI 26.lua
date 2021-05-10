@@ -1,6 +1,6 @@
 local NameFX = "OB-Xa V"
 --local NamePreset = "My Default"
-local TrackName = "Synth OB-Xa"
+local TrackName = "OB-Xa"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

@@ -1,6 +1,6 @@
 local NameFX = "Stage-73 V2"
 --local NamePreset = "My Default"
-local TrackName = "Keys Rhodes"
+local TrackName = "Rhodes"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
