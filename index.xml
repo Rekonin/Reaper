@@ -269,12 +269,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Prepare MIDI Instrument.lua" type="script" desc="Rek_Prepare MIDI Instrument.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Prepare%20MIDI%20Instrument.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Render Mono Tracks to Stereo.lua" type="script" desc="Rek_Render Mono Tracks to Stereo.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Render%20Mono%20Tracks%20to%20Stereo.lua</source>
@@ -710,6 +704,12 @@
 <reapack name="Rek_Solo All Parent Tracks.lua" type="script" desc="Rek_Solo All Parent Tracks.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Solo%20All%20Parent%20Tracks.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Tap Tempo.lua" type="script" desc="Rek_Tap Tempo.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Tap%20Tempo.lua</source>
 </version>
 </reapack>
 
