@@ -221,12 +221,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Keep Automation Take.lua" type="script" desc="Rek_Keep Automation Take.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Keep%20Automation%20Take.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Mousewheel Track Height Change.lua" type="script" desc="Rek_Mousewheel Track Height Change.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Mousewheel%20Track%20Height%20Change.lua</source>
