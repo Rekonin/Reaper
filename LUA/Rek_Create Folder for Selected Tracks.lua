@@ -1,4 +1,4 @@
-local function nothing() end; local function bla() reaper.defer(nothing) end
+local function nothing() end; local function crFolder() reaper.defer(nothing) end
 
 function last_tr_in_folder (folder_tr)
   last = nil
@@ -13,7 +13,7 @@ function last_tr_in_folder (folder_tr)
 end
 
 sel_tracks = reaper.CountSelectedTracks()
-if sel_tracks == 0 then bla() end
+if sel_tracks == 0 then crFolder() end
 
 first_sel = reaper.GetSelectedTrack(0, 0)
 tr_num = reaper.GetMediaTrackInfo_Value(first_sel, 'IP_TRACKNUMBER')
@@ -31,7 +31,7 @@ reaper.InsertTrackAtIndex(tr_num-1, 1)
 reaper.TrackList_AdjustWindows(0)
 tr = reaper.GetTrack(0, tr_num-1)
 
-reaper.GetSetMediaTrackInfo_String(tr, 'P_NAME', name, 1);
+reaper.GetSetMediaTrackInfo_String(tr, 'P_NAME', name..' ', 1);
 reaper.SetMediaTrackInfo_Value(tr, 'D_PANLAW', 1.0)
 reaper.SetMediaTrackInfo_Value(tr, 'I_FOLDERDEPTH', 1)
 reaper.SetMediaTrackInfo_Value(last_tr, 'I_FOLDERDEPTH', last_sel_dep-1)

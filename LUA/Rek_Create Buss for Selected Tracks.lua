@@ -10,7 +10,7 @@ local idx = reaper.GetMediaTrackInfo_Value(first_sel, 'IP_TRACKNUMBER') - 1
 reaper.InsertTrackAtIndex(idx, true)
 local bus = reaper.GetTrack(0, idx)
 
-reaper.GetSetMediaTrackInfo_String(bus, 'P_NAME', name, 1);
+reaper.GetSetMediaTrackInfo_String(bus, 'P_NAME', name..' ', 1);
 reaper.SetMediaTrackInfo_Value(bus, 'D_PANLAW', 1.0)
 
 for i = 0, reaper.CountSelectedTracks(0) - 1 do
@@ -22,7 +22,7 @@ reaper.SetTrackSendInfo_Value(tr, 0, send, 'D_VOL', 1)
 reaper.SetTrackSendInfo_Value(tr, 0, send, 'I_SENDMODE', 0)
 end
 
-reaper.Main_OnCommand(reaper.NamedCommandLookup('_SWS_TRACKRANDCOL'), 0)
+--reaper.Main_OnCommand(reaper.NamedCommandLookup('_SWS_TRACKRANDCOL'), 0)
 
 local HasExtState = reaper.HasExtState('Color BUS', 'COLOR_BUS');
 if HasExtState then;
@@ -33,7 +33,7 @@ reaper.SetExtState('Color BUS', 'COLOR_BUS', Color, false);
 
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_SELFIRSTOFSELTRAX'), 0)
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_SELPREVTRACK'), 0)
-reaper.SetMediaTrackInfo_Value(bus, 'I_CUSTOMCOLOR', Color);
+--reaper.SetMediaTrackInfo_Value(bus, 'I_CUSTOMCOLOR', Color);
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_INSTRACKLABSUFF'), 0)
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_SWSAUTOCOLOR_APPLY'), 0)
 

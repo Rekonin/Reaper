@@ -173,21 +173,9 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Create Bus for Selected Tracks OLD.lua" type="script" desc="Rek_Create Bus for Selected Tracks OLD.lua">
+<reapack name="Rek_Create Buss for Selected Tracks.lua" type="script" desc="Rek_Create Buss for Selected Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Bus%20for%20Selected%20Tracks%20OLD.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Create Bus for Selected Tracks.lua" type="script" desc="Rek_Create Bus for Selected Tracks.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Bus%20for%20Selected%20Tracks.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Create Folder for Selected Tracks OLD.lua" type="script" desc="Rek_Create Folder for Selected Tracks OLD.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Folder%20for%20Selected%20Tracks%20OLD.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Buss%20for%20Selected%20Tracks.lua</source>
 </version>
 </reapack>
 
