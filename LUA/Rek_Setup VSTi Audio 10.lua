@@ -1,6 +1,6 @@
-local NameFX = "Kuassa Cerberus Bass Amp"
---local NamePreset = "My Default"
-local TrackName = "Cerberus"
+local NameFX = "VST3:Cerberus"
+local NamePreset = "My Default"
+local TrackName = "Bass Ashdown"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

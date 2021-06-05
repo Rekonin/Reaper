@@ -1,6 +1,6 @@
-local NameFX = "Serum"
+local NameFX = "Polyphenom 2 RC11"
 --local NamePreset = "My Default"
-local TrackName = "Synth Serum"
+local TrackName = "Polyphenom"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Serum",-1);
+reaper.Undo_EndBlock("Setup VSTi Polyphenom",-1);
 reaper.PreventUIRefresh(-1);
