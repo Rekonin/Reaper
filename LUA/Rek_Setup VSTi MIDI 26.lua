@@ -12,7 +12,7 @@ NameFX = NameFX:gsub(".+:%s+","");
 tracknum = reaper.CountSelectedTracks(0)
 
 for i = 0, tracknum - 1, 1 do
-  reaper.SetMediaTrackInfo_Value(reaper.GetSelectedTrack(tracknum, i), "I_RECINPUT", 4096 | 0 | (63 << 5))
+  reaper.SetMediaTrackInfo_Value(reaper.GetSelectedTrack(tracknum, i), "I_RECINPUT", 4096 | (63 << 5))
 end
 
 SelTrack = reaper.GetSelectedTrack(0,0);
