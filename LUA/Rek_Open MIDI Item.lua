@@ -1,5 +1,5 @@
 local Indent = 0;
-local Vertically_Zoom = true
+local Vertically_Zoom = false
 local function no_undo()reaper.defer(function()end)end;
 
 local itemF_SourceT;

@@ -1,0 +1,28 @@
+Undo_BeginBlock();
+
+function SetTrackPan()
+(
+#input = "0";
+GetUserInputs("Set Track Pan", 1, "Value", #input);
+match("%d", #input, panValue);
+panValue = panValue / 100;
+
+panValue < -1 ? (panValue = -1);
+panValue > 1 ? (panValue = 1);
+
+trackcount = CountSelectedTracks(0);
+i = 0;
+loop(trackcount, (track = GetSelectedTrack(0, i)) ?
+  (
+  SetMediaTrackInfo_Value(track, "D_PAN", panValue);
+  );
+  i += 1;
+  );
+
+TrackList_AdjustWindows(0);
+);
+
+SetTrackPan();
+
+UpdateArrange();
+Undo_EndBlock("Set Track Pan", 0);

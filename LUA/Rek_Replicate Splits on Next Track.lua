@@ -1,19 +1,17 @@
---Adapted from script, original author: MPL
+local function nothing() end; local function bla() reaper.defer(nothing) end
 
-local r = reaper; local function nothing() end; local function bla() r.defer(nothing) end
-
-local tracks = r.CountSelectedTracks()
+local tracks = reaper.CountSelectedTracks()
 if tracks < 2 then bla() return end
 
-local first_sel = r.GetSelectedTrack(0,0)
+local first_sel = reaper.GetSelectedTrack(0,0)
 
-local first_sel_items = r.CountTrackMediaItems(first_sel)
+local first_sel_items = reaper.CountTrackMediaItems(first_sel)
 if first_sel_items == 0 then bla() return end
 
 function item_in_areas(item, ...)
 
-  local pos0 = r.GetMediaItemInfo_Value(item, 'D_POSITION')
-  local len0 = r.GetMediaItemInfo_Value(item, 'D_LENGTH')
+  local pos0 = reaper.GetMediaItemInfo_Value(item, 'D_POSITION')
+  local len0 = reaper.GetMediaItemInfo_Value(item, 'D_LENGTH')
   local end0 = pos0+len0
   
   local arg={...}
@@ -31,9 +29,9 @@ end
 
 split_pos = {}
 for i = 0, first_sel_items-1 do
-  local tr_item = r.GetTrackMediaItem(first_sel, i)
-  local pos0 = r.GetMediaItemInfo_Value(tr_item, 'D_POSITION')
-  local len0 = r.GetMediaItemInfo_Value(tr_item, 'D_LENGTH')
+  local tr_item = reaper.GetTrackMediaItem(first_sel, i)
+  local pos0 = reaper.GetMediaItemInfo_Value(tr_item, 'D_POSITION')
+  local len0 = reaper.GetMediaItemInfo_Value(tr_item, 'D_LENGTH')
   local end0 = pos0+len0
   split_pos[#split_pos+1] = pos0
   split_pos[#split_pos+1] = end0
@@ -45,7 +43,7 @@ table.sort(split_pos_sorted)
 s_tracks = {}
 
 for i = 1, tracks-1 do
-  local tr = r.GetSelectedTrack(0,i)
+  local tr = reaper.GetSelectedTrack(0,i)
   s_tracks[#s_tracks+1] = tr
 end
 
@@ -54,9 +52,9 @@ split_items = {}
 for i = 1, #s_tracks do
   local tr = s_tracks[i]
   
-  local tr_items = r.CountTrackMediaItems(tr)
+  local tr_items = reaper.CountTrackMediaItems(tr)
   for j = 0, tr_items-1 do
-    local tr_item = r.GetTrackMediaItem(tr, j)
+    local tr_item = reaper.GetTrackMediaItem(tr, j)
     split_items[#split_items+1] = tr_item
   end
 end
@@ -66,7 +64,7 @@ reaper.Undo_BeginBlock();
 
 for i = 1, #split_items do
   for j = #split_pos,1,-1 do
-    r.SplitMediaItem(split_items[i], split_pos_sorted[j])
+    reaper.SplitMediaItem(split_items[i], split_pos_sorted[j])
   end
 end
 
@@ -76,18 +74,18 @@ del = {}
 for i = 1, #s_tracks do
   local tr = s_tracks[i]
   
-  local tr_items = r.CountTrackMediaItems(tr)
+  local tr_items = reaper.CountTrackMediaItems(tr)
   for j = 0, tr_items-1 do
-    local tr_item = r.GetTrackMediaItem(tr, j)
+    local tr_item = reaper.GetTrackMediaItem(tr, j)
     if not item_in_areas(tr_item, table.unpack(split_pos)) then
       del[tr_item] = tr
     end
   end
 end
 
-for item,tr in pairs(del) do r.DeleteTrackMediaItem(tr,item) end
+for item,tr in pairs(del) do reaper.DeleteTrackMediaItem(tr,item) end
 
-r.UpdateArrange()
+reaper.UpdateArrange()
 
 reaper.Undo_EndBlock("Replicate Splits on Next Track",-1);
 reaper.PreventUIRefresh(-1);

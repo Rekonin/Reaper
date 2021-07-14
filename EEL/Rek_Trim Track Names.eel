@@ -1,0 +1,37 @@
+#script_title = "Trim Track Names";
+
+Undo_BeginBlock();
+
+function TrimTrackNames()
+(
+Undo_BeginBlock();
+#inputdata = "0,0";
+GetUserInputs("Trim Track Names", 2, "Trim Start,Trim End", #inputdata);
+match("%d,%d", #inputdata, start, end);
+
+trackcount = CountSelectedTracks(0);
+i = 0;
+loop(trackcount,
+(track = GetSelectedTrack(0, i)) ?
+  (
+  GetSetMediaTrackInfo_String(track, "P_NAME", #trackname, 0);
+  /*  ----END-DELETE---*/
+  len = strlen(#trackname);
+  offs = len - end;
+  str_delsub(#trackname, offs, end);
+  /*  ----START-DELETE---*/
+  strcpy_from(#tracknamenew,#trackname,start);
+
+  GetSetMediaTrackInfo_String(track, "P_NAME", #tracknamenew, 1);
+  );
+  i += 1;
+  );
+
+TrackList_AdjustWindows(0);
+Undo_EndBlock("TrimTrackNames", 0);
+);
+
+TrimTrackNames();
+UpdateArrange();
+
+Undo_EndBlock(#script_title, 0);
