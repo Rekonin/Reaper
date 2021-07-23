@@ -1,4 +1,3 @@
-reaper.PreventUIRefresh(1)
 reaper.Undo_BeginBlock()
 
 reaper.Main_OnCommand(41173, 0) --Item navigation: Move cursor to start of items
@@ -14,6 +13,3 @@ reaper.Main_OnCommand(40129, 0) --Take: Delete active take from items
 reaper.Main_OnCommand(40719, 0) --Item properties: Mute
 
 reaper.Undo_EndBlock('Bounce to Stereo Audio', 0)
-reaper.PreventUIRefresh(-1)
-reaper.UpdateArrange()
-reaper.UpdateTimeline()

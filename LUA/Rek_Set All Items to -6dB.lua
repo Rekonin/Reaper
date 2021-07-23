@@ -21,7 +21,7 @@ for i = 1,Count do
   local item = reaper.GetSelectedMediaItem(0, i-1)
   local take = reaper.GetMediaItemTake(item, 0)
   if not reaper.BR_IsTakeMidi(take) then
-    reaper.SetMediaItemInfo_Value(item, 'D_VOL', db)
+    reaper.SetMediaItemInfo_Value(item, "D_VOL", db)
     Undo = 1
   end 
 end

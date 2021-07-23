@@ -131,6 +131,14 @@
 
 <category name="LUA">
 
+<!--
+<reapack name="" type="script" desc="">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/</source>
+</version>
+</reapack>
+-->
+
 <reapack name="Rek_Add 1 Frame Fade In.lua" type="script" desc="Rek_Add 1 Frame Fade In.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add 1 Frame Fade In.lua</source>
@@ -176,6 +184,30 @@
 <reapack name="Rek_Bounce to Stereo Audio.lua" type="script" desc="Rek_Bounce to Stereo Audio.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20to%20Stereo%20Audio.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Color Control.lua" type="script" desc="Rek_Color Control.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Control.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Color Media.lua" type="script" desc="Rek_Color Media.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Media.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Color Palette.lua" type="script" desc="Rek_Color Palette.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Palette.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Color Tracks.lua" type="script" desc="Rek_Color Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Tracks.lua</source>
 </version>
 </reapack>
 
@@ -284,6 +316,12 @@
 <reapack name="Rek_Pan L-R Labeled Tracks.lua" type="script" desc="Rek_Pan L-R Labeled Tracks.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Pan%20L-R%20Labeled%20Tracks.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Play Control.lua" type="script" desc="Rek_Play Control.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Play%20Control.lua</source>
 </version>
 </reapack>
 
@@ -737,6 +775,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Test Script.lua" type="script" desc="Rek_Test Script.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Test%20Script.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Toggle CC Event Shape.lua" type="script" desc="Rek_Toggle CC Event Shape.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle%20CC%20Event%20Shape.lua</source>
@@ -776,6 +820,12 @@
 <reapack name="Rek_Trim To Time Selection.lua" type="script" desc="Rek_Trim To Time Selection.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Trim%20To%20Time%20Selection.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Volume Control.lua" type="script" desc="Rek_Volume Control.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Volume%20Control.lua</source>
 </version>
 </reapack>
 

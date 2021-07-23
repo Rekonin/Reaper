@@ -10,8 +10,8 @@ if first_sel_items == 0 then bla() return end
 
 function item_in_areas(item, ...)
 
-  local pos0 = reaper.GetMediaItemInfo_Value(item, 'D_POSITION')
-  local len0 = reaper.GetMediaItemInfo_Value(item, 'D_LENGTH')
+  local pos0 = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
+  local len0 = reaper.GetMediaItemInfo_Value(item, "D_LENGTH")
   local end0 = pos0+len0
   
   local arg={...}
@@ -30,8 +30,8 @@ end
 split_pos = {}
 for i = 0, first_sel_items-1 do
   local tr_item = reaper.GetTrackMediaItem(first_sel, i)
-  local pos0 = reaper.GetMediaItemInfo_Value(tr_item, 'D_POSITION')
-  local len0 = reaper.GetMediaItemInfo_Value(tr_item, 'D_LENGTH')
+  local pos0 = reaper.GetMediaItemInfo_Value(tr_item, "D_POSITION")
+  local len0 = reaper.GetMediaItemInfo_Value(tr_item, "D_LENGTH")
   local end0 = pos0+len0
   split_pos[#split_pos+1] = pos0
   split_pos[#split_pos+1] = end0
