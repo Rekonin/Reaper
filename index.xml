@@ -5,6 +5,14 @@
 
 <category name="JSFX">
 
+<!--
+<reapack name="" type="effect" desc="">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/</source>
+</version>
+</reapack>
+-->
+
 <reapack name="Butterworth HP.jsfx" type="effect" desc="Butterworth HP.jsfx">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Butterworth%20HP.jsfx</source>
@@ -71,6 +79,14 @@
 
 <category name="EEL">
 
+<!--
+<reapack name="" type="script" desc="">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/</source>
+</version>
+</reapack>
+-->
+
 <reapack name="Rek_Nudge Item Volume +0.1dB.eel" type="script" desc="Rek_Nudge Item Volume +0.1dB.eel">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Nudge%20Item%20Volume%20+0.1dB.eel</source>
@@ -107,21 +123,21 @@
 </version>
 </reapack>
 
-<reapack name="Rek_.eel" type="script" desc="Rek_.eel">
+<reapack name="Rek_Set Item Volume.eel" type="script" desc="Rek_Set Item Volume.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Set%20Item%20Volume.eel</source>
 </version>
 </reapack>
 
-<reapack name="Rek_.eel" type="script" desc="Rek_.eel">
+<reapack name="Rek_Set Track Pan.eel" type="script" desc="Rek_Set Track Pan.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Set%20Track%20Pan.eel</source>
 </version>
 </reapack>
 
-<reapack name="Rek_.eel" type="script" desc="Rek_.eel">
+<reapack name="Rek_Trim Track Names.eel" type="script" desc="Rek_Trim Track Names.eel">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_.eel</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Trim%20Track%20Names.eel</source>
 </version>
 </reapack>
 
