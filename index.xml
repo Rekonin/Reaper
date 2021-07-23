@@ -157,7 +157,7 @@
 
 <reapack name="Rek_Add 1 Frame Fade In.lua" type="script" desc="Rek_Add 1 Frame Fade In.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add 1 Frame Fade In.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%201%20Frame%20Fade%20In.lua</source>
 </version>
 </reapack>
 
