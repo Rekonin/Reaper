@@ -87,5 +87,5 @@ for item,tr in pairs(del) do reaper.DeleteTrackMediaItem(tr,item) end
 
 reaper.UpdateArrange()
 
-reaper.Undo_EndBlock("Replicate Splits on Next Track",-1);
+reaper.Undo_EndBlock("Replicate Splits",-1);
 reaper.PreventUIRefresh(-1);

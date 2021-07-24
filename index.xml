@@ -353,15 +353,15 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Replicate Splits on Next Track (Keep Slices).lua" type="script" desc="Rek_Replicate Splits on Next Track (Keep Slices).lua">
+<reapack name="Rek_Replicate Splits (Keep Slices).lua" type="script" desc="Rek_Replicate Splits (Keep Slices).lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate%20Splits%20on%20Next%20Track%20(Keep%20Slices).lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate%20Splits%20(Keep%20Slices).lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Replicate Splits on Next Track.lua" type="script" desc="Rek_Replicate Splits on Next Track.lua">
+<reapack name="Rek_Replicate Splits.lua" type="script" desc="Rek_Replicate Splits.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate%20Splits%20on%20Next%20Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Replicate%20Splits.lua</source>
 </version>
 </reapack>
 

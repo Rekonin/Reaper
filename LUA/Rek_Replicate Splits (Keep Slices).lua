@@ -88,7 +88,7 @@ main()
 
 reaper.UpdateArrange()
 
-reaper.Undo_EndBlock("Replicate Splits on Next Track (Keep Slices)",-1);
+reaper.Undo_EndBlock("Replicate Splits (Keep Slices)",-1);
 reaper.PreventUIRefresh(-1);
 
 end
