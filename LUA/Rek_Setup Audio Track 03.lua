@@ -1,6 +1,6 @@
 local NameFX = "Amplifikation Clarent"
 --local NamePreset = ""
-local TrackName = "Orange Clarent"
+local TrackName = "Orange DT"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

@@ -1,6 +1,6 @@
 local NameFX = "Amplifikation Caliburn"
 --local NamePreset = ""
-local TrackName = "Marshall Caliburn"
+local TrackName = "Marshall JCM800"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();

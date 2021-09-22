@@ -108,11 +108,11 @@ stringRest = string.sub(volValue, 2, 10)
     elseif volValue == "0" then
       resetVolume()
     else
-      
   end
+
 end
 
-if goScript == "true" then
+if goScript == true then
   main()
 end
 

@@ -1,6 +1,6 @@
 local NameFX = "VST3:AmpliTube 5"
-local NamePreset = "Ampeg B-15R"
-local TrackName = "Ampeg B-15R"
+local NamePreset = "Ampeg B-15N"
+local TrackName = "Ampeg B-15N"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi AmpliTube Ampeg B-15R",-1);
+reaper.Undo_EndBlock("Setup VSTi AmpliTube Ampeg B-15N",-1);
 reaper.PreventUIRefresh(-1);

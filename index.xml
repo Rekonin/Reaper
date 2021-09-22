@@ -263,6 +263,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Create Send From Selected Tracks.lua" type="script" desc="Rek_Create Send From Selected Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Send%20From%20Selected%20Tracks.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Create Sends Track Select Order.lua" type="script" desc="Rek_Create Sends Track Select Order.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Sends%20Track%20Select%20Order.lua</source>
@@ -299,9 +305,9 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Item Mixer.lua" type="script" desc="Rek_Item Mixer.lua">
+<reapack name="Rek_Invert Phase Gate.lua" type="script" desc="Rek_Invert Phase Gate.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Item%20Mixer.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Invert%20Phase%20Gate.lua</source>
 </version>
 </reapack>
 
@@ -416,6 +422,12 @@
 <reapack name="Rek_Set All Tracks to -6dB.lua" type="script" desc="Rek_Set All Tracks to -6dB.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Tracks%20to%20-6dB.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Set Tempo BPM.lua" type="script" desc="Rek_Set Tempo BPM.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Tempo%20BPM.lua</source>
 </version>
 </reapack>
 
@@ -788,12 +800,6 @@
 <reapack name="Rek_Tap Tempo.lua" type="script" desc="Rek_Tap Tempo.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Tap%20Tempo.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Test Script.lua" type="script" desc="Rek_Test Script.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Test%20Script.lua</source>
 </version>
 </reapack>
 

@@ -1,4 +1,4 @@
-local NameFX = "VST3:ClassicThirtyOneV0030"
+local NameFX = "VST3:ClassicVOneV0020"
 local NamePreset = "My Default"
 local TrackName = "Vox AC30"
 
