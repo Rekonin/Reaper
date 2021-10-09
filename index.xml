@@ -13,33 +13,15 @@
 </reapack>
 -->
 
-<reapack name="Butterworth HP.jsfx" type="effect" desc="Butterworth HP.jsfx">
+<reapack name="Audio Pitch Tracker.jsfx" type="effect" desc="Audio Pitch Tracker.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Butterworth%20HP.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Butterworth LP.jsfx" type="effect" desc="Butterworth LP.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Butterworth%20LP.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Channel Strip.jsfx" type="effect" desc="Channel Strip.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Channel%20Strip.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Audio%20Pitch%20Tracker.jsfx</source>
 </version>
 </reapack>
 
 <reapack name="Drum Humanizer.jsfx" type="effect" desc="Drum Humanizer.jsfx">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Drum%20Humanizer.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Expander.jsfx" type="effect" desc="Expander.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Expander.jsfx</source>
 </version>
 </reapack>
 
@@ -55,21 +37,9 @@
 </version>
 </reapack>
 
-<reapack name="MV3.jsfx" type="effect" desc="MV3.jsfx">
+<reapack name="Sliders.jsfx" type="effect" desc="Sliders.jsfx">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/MV3.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Parametric EQ Filter.jsfx" type="effect" desc="Parametric EQ Filter.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Parametric%20EQ%20Filter.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Stereo Compressor.jsfx" type="effect" desc="Stereo Compressor.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Stereo%20Compressor.jsfx</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Sliders.jsfx</source>
 </version>
 </reapack>
 
@@ -200,30 +170,6 @@
 <reapack name="Rek_Bounce to Stereo Audio.lua" type="script" desc="Rek_Bounce to Stereo Audio.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20to%20Stereo%20Audio.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Color Control.lua" type="script" desc="Rek_Color Control.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Control.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Color Media.lua" type="script" desc="Rek_Color Media.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Media.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Color Palette.lua" type="script" desc="Rek_Color Palette.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Palette.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Color Tracks.lua" type="script" desc="Rek_Color Tracks.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Color%20Tracks.lua</source>
 </version>
 </reapack>
 
@@ -416,6 +362,12 @@
 <reapack name="Rek_Set All Items to -6dB.lua" type="script" desc="Rek_Set All Items to -6dB.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Items%20to%20-6dB.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Set All Sends to Pre-Fader.lua" type="script" desc="Rek_Set All Sends to Pre-Fader.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Sends%20to%20Pre-Fader.lua</source>
 </version>
 </reapack>
 

@@ -1,0 +1,26 @@
+desc:Sliders
+//author: Rekonin
+
+slider1:0<0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}>MIDI Channel
+slider2:0<0,9,1{50,51,52,53,54,55,56,57,58,59}>CC Number
+slider3:0<0,127,1>CC Value
+
+@init
+cc_msg = 176; // 0xB0 or CC messages
+cc_num = slider2;
+cc_curr = slider3;
+cc_run = 1;
+
+
+@slider
+cc_curr != slider3 ? (
+    cc_curr = slider3;
+    cc_run = 1;
+);
+
+
+@block
+cc_run ? (
+    midisend(offset, (cc_msg + slider1), (cc_num) | (cc_curr * 256));
+    cc_run = 0;
+);
