@@ -85,10 +85,19 @@ mes2yh = 21;
       y_ = y;
       gfx_r = gfx_g = gfx_b = 0.15;
       gfx_rect(0, 0, gfx_w, gfx_h);
-      gfx_r = gfx_g = gfx_b = 1;
+      
+      gfx_r = gfx_g = gfx_b = 0.8;
       gfx_blit(1, 1, 0);
-      gfx_circle(_x, _y, 10);
-      gfx_circle(_x, _y, 10);
+      gfx_circle(_x, _y, 10, 1, 1);
+
+      gfx_r = gfx_g = gfx_b = 0.1;
+      gfx_blit(1, 1, 0);
+      gfx_circle(_x, _y, 9, 1, 1);
+      
+      gfx_r = 0.28; gfx_g = 0.43; gfx_b = 0.58;
+      gfx_blit(1, 1, 0);
+      gfx_circle(_x, _y, 8, 1, 1);
+ 
       slider1 = x / 16383;
       slider2 = y / 16383;
     );  
