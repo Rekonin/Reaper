@@ -2,7 +2,7 @@ desc:Low Ender
 
 slider1:50<0,100,1>Mix
 slider2:50<0,100,1>Drive
-slider3:50<30,160,1>Freq
+slider3:50<30,240,1>Freq
 
 in_pin:left input
 in_pin:right input

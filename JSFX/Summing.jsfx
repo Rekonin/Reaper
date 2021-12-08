@@ -1,0 +1,49 @@
+desc:Summing
+
+slider1:1<0,1,0.01>Trim
+
+in_pin:input 1 L
+in_pin:input 1 R
+in_pin:input 2 L
+in_pin:input 2 R
+in_pin:input 3 L
+in_pin:input 3 R
+in_pin:input 4 L
+in_pin:input 4 R
+in_pin:input 5 L
+in_pin:input 5 R
+in_pin:input 6 L
+in_pin:input 6 R
+in_pin:input 7 L
+in_pin:input 7 R
+in_pin:input 8 L
+in_pin:input 8 R
+in_pin:input 9 L
+in_pin:input 9 R
+in_pin:input 10 L
+in_pin:input 10 R
+in_pin:input 11 L
+in_pin:input 11 R
+in_pin:input 12 L
+in_pin:input 12 R
+in_pin:input 13 L
+in_pin:input 13 R
+in_pin:input 14 L
+in_pin:input 14 R
+in_pin:input 15 L
+in_pin:input 15 R
+in_pin:input 16 L
+in_pin:input 16 R
+out_pin:output L
+out_pin:output R
+
+@slider
+trimValue = slider1/3
+
+@sample
+
+spl0 =  (spl0 + spl2 + spl4 + spl6 + spl8 + spl10 + spl12 + spl14 +
+        spl16 + spl18 + spl20 + spl22 + spl24 + spl26 + spl28 + spl30) * trimValue;
+
+spl1 =  (spl1 + spl3 + spl5 + spl7 + spl9 + spl11 + spl13 + spl15 +
+        spl17 + spl19 + spl21 + spl23 + spl25 + spl27 + spl29 + spl31) * trimValue;

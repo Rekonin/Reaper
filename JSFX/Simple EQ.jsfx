@@ -1,0 +1,42 @@
+desc:Simple EQ
+
+in_pin:left input
+in_pin:right input
+out_pin:left output
+out_pin:right output
+
+@init
+
+@sample
+
+  dry0 = spl0;
+  dry1 = spl1;
+
+  //lpf to extract bass signal
+  ospl0 = dry0;
+  dry0 = b01 * dry0 + b11 * xl11 + b21 * xl21 - a11 * yl11 - a21 * yl21;
+  xl21 = xl11;
+  xl11 = ospl0;
+  yl21 = yl11;
+  yl11 = dry0;
+
+  ospl1 = dry1;
+  dry1 = b01 * dry1 + b11 * xr11 + b21 * xr21 - a11 * yr11 - a21 * yr21;
+  xr21 = xr11;
+  xr11 = ospl1;
+  yr21 = yr11;
+  yr11 = dry1;
+
+  //enhance bass signal
+  wet0 = dry0 * (1 - abs(dry0));
+  wet1 = dry1 * (1 - abs(dry1));
+
+  //hpf to isolate enhance signal
+  ospl0 = wet0;
+  wet0 = b03 * wet0 + b13 * xl13 + b23 * xl23 - a13 * yl13 - a23 * yl23;
+
+  ospl1 = wet1;
+  wet1 = b03 * wet1 + b13 * xr13 + b23 * xr23 - a13 * yr13 - a23 * yr23;
+
+  spl0 = spl0 + (mix) * wet0;
+  spl1 = spl1 + (mix) * wet1;
