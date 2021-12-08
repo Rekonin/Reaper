@@ -37,9 +37,27 @@
 </version>
 </reapack>
 
+<reapack name="Simple EQ.jsfx" type="effect" desc="Simple EQ.jsfx">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Simple%20EQ.jsfx</source>
+</version>
+</reapack>
+
 <reapack name="Sliders.jsfx" type="effect" desc="Sliders.jsfx">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Sliders.jsfx</source>
+</version>
+</reapack>
+
+<reapack name="Summing.jsfx" type="effect" desc="Summing.jsfx">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Summing.jsfx</source>
+</version>
+</reapack>
+
+<reapack name="Vocal Automation.jsfx" type="effect" desc="Vocal Automation.jsfx">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Vocal%20Automation.jsfx</source>
 </version>
 </reapack>
 
@@ -269,6 +287,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Move Take To New Track.lua" type="script" desc="Rek_Move Take To New Track.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Take%20To%20New%20Track.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Move Cursor to Measure 16.lua" type="script" desc="Rek_Move Cursor to Measure 16.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Cursor%20to%20Measure%2016.lua</source>
@@ -365,21 +389,9 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Set All Items to -6dB.lua" type="script" desc="Rek_Set All Items to -6dB.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Items%20to%20-6dB.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Set All Sends to Pre-Fader.lua" type="script" desc="Rek_Set All Sends to Pre-Fader.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Sends%20to%20Pre-Fader.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Set All Tracks to -6dB.lua" type="script" desc="Rek_Set All Tracks to -6dB.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Tracks%20to%20-6dB.lua</source>
 </version>
 </reapack>
 

@@ -1,6 +1,6 @@
-local NameFX = "Vital"
+local NameFX = "CS-80 V3"
 --local NamePreset = ""
-local TrackName = "Vital"
+local TrackName = "CS-80"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Vital",-1);
+reaper.Undo_EndBlock("Setup VSTi ",-1);
 reaper.PreventUIRefresh(-1);

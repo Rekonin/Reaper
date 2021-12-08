@@ -23,7 +23,7 @@ local ZoomProj = 40726; --Envelope: Insert 4 envelope points at time selection
 local OpenMIDI = 40153; --Item: Open in built-in MIDI editor (set default behavior in preferences)
 local ZoomCont = 40466; --Screenset: Save track view #03
 
-reaper.Main_OnCommand(41173, 0); --Item navigation: Move cursor to start of items
+--reaper.Main_OnCommand(41173, 0); --Item navigation: Move cursor to start of items
 
 if not tonumber(Indent) then Indent = 0 end;
 
