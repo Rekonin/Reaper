@@ -1,6 +1,6 @@
-local NameFX = "VST3:AmpliTube 5"
-local NamePreset = "SolidState Bass"
-local TrackName = "SolidState Bass"
+local NameFX = "VST3:AmpliTube 4"
+local NamePreset = "Solidstate Bass"
+local TrackName = "Solidstate Bass"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi SolidState Bass",-1);
+reaper.Undo_EndBlock("Setup SolidState Bass",-1);
 reaper.PreventUIRefresh(-1);

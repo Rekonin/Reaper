@@ -1,6 +1,6 @@
-local NameFX = "Sitala"
+local NameFX = ""
 --local NamePreset = ""
-local TrackName = "Sitala"
+local TrackName = ""
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Sitala",-1);
+reaper.Undo_EndBlock("Setup ",-1);
 reaper.PreventUIRefresh(-1);

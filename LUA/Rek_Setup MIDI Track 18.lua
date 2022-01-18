@@ -1,4 +1,4 @@
-local NameFX = "LABS"
+local NameFX = "VST3:LABS"
 --local NamePreset = ""
 local TrackName = "Spitfire LABS"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Spitfire LABS",-1);
+reaper.Undo_EndBlock("Setup Spitfire LABS",-1);
 reaper.PreventUIRefresh(-1);

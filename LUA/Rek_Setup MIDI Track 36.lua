@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi DX7 V",-1);
+reaper.Undo_EndBlock("Setup DX7 V",-1);
 reaper.PreventUIRefresh(-1);

@@ -1,6 +1,6 @@
-local NameFX = ""
---local NamePreset = ""
-local TrackName = ""
+local NameFX = "VST3:ClBassMOneV0020"
+local NamePreset = "My Default"
+local TrackName = "Marshall Bass"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi ",-1);
+reaper.Undo_EndBlock("Setup Marshall Bass",-1);
 reaper.PreventUIRefresh(-1);

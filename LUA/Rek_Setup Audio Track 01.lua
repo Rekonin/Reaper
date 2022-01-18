@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi AmpliTube 4",-1);
+reaper.Undo_EndBlock("Setup Marshall JTM45",-1);
 reaper.PreventUIRefresh(-1);

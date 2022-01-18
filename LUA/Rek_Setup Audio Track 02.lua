@@ -1,4 +1,4 @@
-local NameFX = "Amplifikation Caliburn"
+local NameFX = "VST3:Amplifikation Caliburn"
 local NamePreset = "My JCM800"
 local TrackName = "Marshall JCM800"
 

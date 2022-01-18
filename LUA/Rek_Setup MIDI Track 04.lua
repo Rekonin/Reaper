@@ -1,6 +1,6 @@
-local NameFX = "Kick 2"
+local NameFX = ""
 --local NamePreset = ""
-local TrackName = "Kick 2"
+local TrackName = ""
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Kick 2",-1);
+reaper.Undo_EndBlock("Setup ",-1);
 reaper.PreventUIRefresh(-1);

@@ -1,4 +1,4 @@
-local NameFX = "Stage-73 V2"
+local NameFX = "VST3:Stage-73 V2"
 --local NamePreset = ""
 local TrackName = "Stage-73"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Stage-73 V2",-1);
+reaper.Undo_EndBlock("Setup Stage-73",-1);
 reaper.PreventUIRefresh(-1);

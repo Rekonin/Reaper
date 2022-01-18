@@ -1,5 +1,5 @@
-local NameFX = "Piano V2"
---local NamePreset = ""
+local NameFX = "VST3:Piano V2"
+local NamePreset = "Home Studio Grand"
 local TrackName = "Piano"
 
 reaper.PreventUIRefresh(1);
@@ -17,11 +17,11 @@ end
 
 SelTrack = reaper.GetSelectedTrack(0,0);
 reaper.TrackFX_AddByName(SelTrack,NameFX,false,-1)
---reaper.TrackFX_SetPreset(SelTrack,0,NamePreset)
+reaper.TrackFX_SetPreset(SelTrack,0,NamePreset)
 if TrackName and TrackName ~= "" then
   reaper.GetSetMediaTrackInfo_String(SelTrack,"P_NAME",TrackName,1)
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Piano V2",-1);
+reaper.Undo_EndBlock("Setup Piano",-1);
 reaper.PreventUIRefresh(-1);

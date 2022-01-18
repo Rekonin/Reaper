@@ -1,5 +1,5 @@
-local NameFX = "Amplifikation Clarent"
---local NamePreset = ""
+local NameFX = "VST3:Amplifikation Clarent"
+local NamePreset = "My Default"
 local TrackName = "Orange DT"
 
 reaper.PreventUIRefresh(1);
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Amplifikation Clarent",-1);
+reaper.Undo_EndBlock("Setup Clarent",-1);
 reaper.PreventUIRefresh(-1);

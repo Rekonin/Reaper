@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi SEM V2",-1);
+reaper.Undo_EndBlock("Setup SEM V2",-1);
 reaper.PreventUIRefresh(-1);

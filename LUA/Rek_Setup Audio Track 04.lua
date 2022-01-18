@@ -1,6 +1,6 @@
-local NameFX = "VST3:AmpliTube 5"
-local NamePreset = "ENGL Powerball"
-local TrackName = "ENGL Powerball"
+local NameFX = "VST3:ClassicMOneV0020"
+local NamePreset = "My Default"
+local TrackName = "Marshall 1987"
 
 reaper.PreventUIRefresh(1)
 reaper.Undo_BeginBlock()
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack, "I_RECARM", 1)
 
-reaper.Undo_EndBlock("Setup VSTi ENGL Powerball", -1)
+reaper.Undo_EndBlock("Setup Marshall 1987", -1)
 reaper.PreventUIRefresh(-1)

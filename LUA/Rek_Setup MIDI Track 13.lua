@@ -1,4 +1,4 @@
-local NameFX = "Wurli V2"
+local NameFX = "VST3:Wurli V2"
 --local NamePreset = ""
 local TrackName = "Wurli"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Wurli V2",-1);
+reaper.Undo_EndBlock("Setup Wurli",-1);
 reaper.PreventUIRefresh(-1);

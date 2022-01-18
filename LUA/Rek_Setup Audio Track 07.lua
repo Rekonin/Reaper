@@ -1,5 +1,5 @@
-local NameFX = "VST3:ClassicVOneV0020"
-local NamePreset = "My Default"
+local NameFX = "VST3:ClassicThirtyOneV0030"
+local NamePreset = "Vintage Driven"
 local TrackName = "Vox AC30"
 
 reaper.PreventUIRefresh(1);
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi ",-1);
+reaper.Undo_EndBlock("Setup Vox AC30",-1);
 reaper.PreventUIRefresh(-1);

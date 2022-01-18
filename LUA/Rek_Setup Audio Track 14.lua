@@ -1,6 +1,6 @@
-local NameFX = "VST3:AmpliTube 5"
-local NamePreset = "Aguilar DB750"
-local TrackName = "Aguilar DB750"
+local NameFX = "VST3:GK Amplification 2 LE"
+local NamePreset = "My Default"
+local TrackName = "Gallien Krueger"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Aguilar DB750",-1);
+reaper.Undo_EndBlock("Setup GK Amplifikation",-1);
 reaper.PreventUIRefresh(-1);

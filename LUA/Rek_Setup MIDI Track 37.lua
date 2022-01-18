@@ -1,4 +1,4 @@
-local NameFX = "CS-80 V3"
+local NameFX = "VST3:CS-80 V3"
 --local NamePreset = ""
 local TrackName = "CS-80"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi ",-1);
+reaper.Undo_EndBlock("Setup CS-80",-1);
 reaper.PreventUIRefresh(-1);

@@ -1,6 +1,6 @@
-local NameFX = "Battery 4"
---local NamePreset = ""
-local TrackName = "Battery"
+local NameFX = "VST3:Speedrum"
+local NamePreset = "My Default"
+local TrackName = "Speedrum"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Battery 4",-1);
+reaper.Undo_EndBlock("Setup Speedrum",-1);
 reaper.PreventUIRefresh(-1);

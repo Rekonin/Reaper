@@ -1,5 +1,5 @@
-local NameFX = "Marshall JMP 2203"
---local NamePreset = ""
+local NameFX = "VST3:Marshall JMP 2203"
+local NamePreset = "My Default"
 local TrackName = "Marshall JMP"
 
 reaper.PreventUIRefresh(1);
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup VSTi Marshall JMP 2203",-1);
+reaper.Undo_EndBlock("Setup Marshall JMP",-1);
 reaper.PreventUIRefresh(-1);
