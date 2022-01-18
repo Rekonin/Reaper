@@ -245,6 +245,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Dummy Script.lua" type="script" desc="Rek_Dummy Script.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Dummy%20Script.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Fade Config 01.lua" type="script" desc="Rek_Fade Config 01.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Fade%20Config%2001.lua</source>
