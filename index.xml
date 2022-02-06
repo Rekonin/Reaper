@@ -31,12 +31,6 @@
 </version>
 </reapack>
 
-<reapack name="Low Ender.jsfx" type="effect" desc="Low Ender.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Low%20Ender.jsfx</source>
-</version>
-</reapack>
-
 <reapack name="Simple EQ.jsfx" type="effect" desc="Simple EQ.jsfx">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Simple%20EQ.jsfx</source>
