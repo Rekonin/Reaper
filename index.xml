@@ -111,12 +111,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Set Item Volume.eel" type="script" desc="Rek_Set Item Volume.eel">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Set%20Item%20Volume.eel</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Set Track Pan.eel" type="script" desc="Rek_Set Track Pan.eel">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/EEL/Rek_Set%20Track%20Pan.eel</source>
@@ -143,18 +137,6 @@
 </reapack>
 -->
 
-<reapack name="Rek_Add 1 Frame Fade In.lua" type="script" desc="Rek_Add 1 Frame Fade In.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%201%20Frame%20Fade%20In.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Add 1 Frame Fade Out.lua" type="script" desc="Rek_Add 1 Frame Fade Out.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%201%20Frame%20Fade%20Out.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Add New Track - Input 1.lua" type="script" desc="Rek_Add New Track - Input 1.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20New%20Track%20-%20Input%201.lua</source>
@@ -173,9 +155,9 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Add Plugin to Selected Tracks.lua" type="script" desc="Rek_Add Plugin to Selected Tracks.lua">
+<reapack name="Rek_Add New Track - Separator.lua" type="script" desc="Rek_Add New Track - Separator.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20Plugin%20to%20Selected%20Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20New%20Track%20-%20Separator.lua</source>
 </version>
 </reapack>
 
@@ -206,6 +188,12 @@
 <reapack name="Rek_Commit to Stereo Audio.lua" type="script" desc="Rek_Commit to Stereo Audio.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20to%20Stereo%20Audio.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Copy Selected FX Across All Selected Tracks.lua" type="script" desc="Rek_Copy Selected FX Across All Selected Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Copy%20Selected%20FX%20Across%20All%20Selected%20Tracks.lua</source>
 </version>
 </reapack>
 
@@ -257,12 +245,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Grid Switch.lua" type="script" desc="Rek_Grid Switch.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Grid%20Switch.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Insert New Track with Receive from Selected Track.lua" type="script" desc="Rek_Insert New Track with Receive from Selected Track.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Insert%20New%20Track%20with%20Receive%20from%20Selected%20Track.lua</source>
@@ -299,12 +281,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Open MIDI Item.lua" type="script" desc="Rek_Open MIDI Item.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Open%20MIDI%20Item.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Open Samples Folder.lua" type="script" desc="Rek_Open Samples Folder.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Open%20Samples%20Folder.lua</source>
@@ -314,18 +290,6 @@
 <reapack name="Rek_Pan L-R Labeled Tracks.lua" type="script" desc="Rek_Pan L-R Labeled Tracks.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Pan%20L-R%20Labeled%20Tracks.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Play Control.lua" type="script" desc="Rek_Play Control.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Play%20Control.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Play from Marker 1.lua" type="script" desc="Rek_Play from Marker 1.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Play%20from%20Marker%201.lua</source>
 </version>
 </reapack>
 
@@ -386,12 +350,6 @@
 <reapack name="Rek_Select All Tracks with Sends here.lua" type="script" desc="Rek_Select All Tracks with Sends here.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Select%20All%20Tracks%20with%20Sends%20here.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Set All Sends to Pre-Fader.lua" type="script" desc="Rek_Set All Sends to Pre-Fader.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20All%20Sends%20to%20Pre-Fader.lua</source>
 </version>
 </reapack>
 
@@ -791,6 +749,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Toggle Track Color.lua" type="script" desc="Rek_Toggle Track Color.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle%20Track%20Color.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Tooltip Selected Items Total.lua" type="script" desc="Rek_Tooltip Selected Items Total.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Tooltip%20Selected%20Items%20Total.lua</source>
@@ -818,6 +782,74 @@
 <reapack name="Rek_Volume Control.lua" type="script" desc="Rek_Volume Control.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Volume%20Control.lua</source>
+</version>
+</reapack>
+
+</category>
+
+
+
+<category name="EEL">
+
+<!--
+<reapack name="" type="script" desc="">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/</source>
+</version>
+</reapack>
+-->
+
+<reapack name="Rek_Add 1 Frame Fade In.lua" type="script" desc="Rek_Add 1 Frame Fade In.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Add%201%20Frame%20Fade%20In.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Add 1 Frame Fade Out.lua" type="script" desc="Rek_Add 1 Frame Fade Out.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Add%201%20Frame%20Fade%20Out.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Add Plugin to Selected Tracks.lua" type="script" desc="Rek_Add Plugin to Selected Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Add%20Plugin%20to%20Selected%20Tracks.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Focus Child Tracks.lua" type="script" desc="Rek_Focus Child Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Focus%20Child%20Tracks.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Focus Parent Tracks.lua" type="script" desc="Rek_Focus Parent Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Focus%20Parent%20Tracks.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Open MIDI Item.lua" type="script" desc="Rek_Open MIDI Item.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Open%20MIDI%20Item.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Play Control.lua" type="script" desc="Rek_Play Control.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Play%20Control.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Play from Marker 1.lua" type="script" desc="Rek_Play from Marker 1.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Play%20from%20Marker%201.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Set All Sends to Pre-Fader.lua" type="script" desc="Rek_Set All Sends to Pre-Fader.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/Rek_Set%20All%20Sends%20to%20Pre-Fader.lua</source>
 </version>
 </reapack>
 
