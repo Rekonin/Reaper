@@ -1,6 +1,6 @@
-local NameFX = ""
+local NameFX = "VST3:Vital"
 --local NamePreset = ""
-local TrackName = ""
+local TrackName = "Vital"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup ",-1);
+reaper.Undo_EndBlock("Setup Vital",-1);
 reaper.PreventUIRefresh(-1);

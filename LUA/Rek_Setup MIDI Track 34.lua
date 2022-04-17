@@ -1,4 +1,4 @@
-local NameFX = "Repro-5"
+local NameFX = "VST3:Repro-5"
 --local NamePreset = ""
 local TrackName = "Prophet 5"
 

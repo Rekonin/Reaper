@@ -1,4 +1,4 @@
-local NameFX = "DX7 V"
+local NameFX = "VST3:DX7 V"
 --local NamePreset = ""
 local TrackName = "DX7"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup DX7 V",-1);
+reaper.Undo_EndBlock("Setup DX7",-1);
 reaper.PreventUIRefresh(-1);

@@ -1,4 +1,4 @@
-local NameFX = "SEM V2"
+local NameFX = "VST3:SEM V2"
 --local NamePreset = ""
 local TrackName = "SEM"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup SEM V2",-1);
+reaper.Undo_EndBlock("Setup SEM",-1);
 reaper.PreventUIRefresh(-1);

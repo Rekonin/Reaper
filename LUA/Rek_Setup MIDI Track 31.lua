@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup Model 72 Synthesizer System",-1);
+reaper.Undo_EndBlock("Setup Model 72",-1);
 reaper.PreventUIRefresh(-1);

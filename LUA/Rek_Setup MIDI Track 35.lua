@@ -1,4 +1,4 @@
-local NameFX = "OB-Xa V"
+local NameFX = "VST3:OB-Xa V"
 --local NamePreset = ""
 local TrackName = "OB-Xa"
 
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup OB-Xa V",-1);
+reaper.Undo_EndBlock("Setup OB-Xa",-1);
 reaper.PreventUIRefresh(-1);

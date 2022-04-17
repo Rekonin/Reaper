@@ -1,6 +1,6 @@
-local NameFX = ""
+local NameFX = "VST3:Jup-8 V4"
 --local NamePreset = ""
-local TrackName = ""
+local TrackName = "Jupiter-8"
 
 reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
@@ -23,5 +23,5 @@ if TrackName and TrackName ~= "" then
 end
 reaper.SetMediaTrackInfo_Value(SelTrack,"I_RECARM",1)
 
-reaper.Undo_EndBlock("Setup ",-1);
+reaper.Undo_EndBlock("Setup Jupiter-8",-1);
 reaper.PreventUIRefresh(-1);
