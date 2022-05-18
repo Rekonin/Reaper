@@ -1,5 +1,4 @@
 desc:Drum Humanizer
-//author: Rekonin
 
 slider1:1<0,2,0.01>Dynamic Automation
 slider2:0<0,10,1>Velocity Fluctuation

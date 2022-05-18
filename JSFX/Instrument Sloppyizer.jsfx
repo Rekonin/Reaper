@@ -1,5 +1,4 @@
 desc:Instrument Sloppyizer
-//author: Rekonin
 
 slider1:0<0,3000,1>Sloppiness
 
