@@ -429,20 +429,6 @@
 
 
 
-<category name="OLD">
-
-<!--
-<reapack name="" type="script" desc="">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/OLD/</source>
-</version>
-</reapack>
--->
-
-</category>
-
-
-
 <metadata>
 <description>
 <![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
