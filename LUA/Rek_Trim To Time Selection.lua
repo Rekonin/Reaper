@@ -45,6 +45,6 @@ local Only_Items_In_Time_Selection = 0
        end;
     end;
 
-reaper.Undo_EndBlock("Trim Extend selected of items to time selection",-1)
+reaper.Undo_EndBlock("Trim item to time selection",-1)
 reaper.PreventUIRefresh(-1)
 reaper.UpdateArrange()

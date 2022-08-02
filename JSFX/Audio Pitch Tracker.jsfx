@@ -1,4 +1,4 @@
-desc:Audio Pitch Tracker
+desc:Audio Pitch Tracker [Rek]
 
 slider1:0<0,100,1>Midi Note Frequency 
 slider2:440<420,460,1>Base Frequency

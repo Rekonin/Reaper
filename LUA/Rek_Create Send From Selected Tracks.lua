@@ -19,11 +19,11 @@ reaper.SetTrackSendInfo_Value(tr, 0, send, 'D_VOL', 1)
 reaper.SetTrackSendInfo_Value(tr, 0, send, 'I_SENDMODE', 0)
 end
 
-reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_INSTRACKLABPREF'), 0)
+--reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_INSTRACKLABPREF'), 0)
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_SWSAUTOCOLOR_APPLY'), 0)
 
 reaper.PreventUIRefresh(-1)
-reaper.Undo_EndBlock('Create send before selected tracks and reroute them', 0)
+reaper.Undo_EndBlock('Create Send From Selected Tracks', 0)
 
 reaper.TrackList_AdjustWindows(false)
 reaper.UpdateArrange()

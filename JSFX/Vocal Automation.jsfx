@@ -1,4 +1,4 @@
-desc: Vocal Automation
+desc: Vocal Automation [Rek]
 
 slider1:cfg_peak=4<0,4,1{off,true peak,true peak clips,peak,peak clips}>-Peak
 slider2:cfg_rms_m=0<0,1,1{off,on}>-RMS momentary

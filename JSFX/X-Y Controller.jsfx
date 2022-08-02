@@ -1,4 +1,4 @@
-desc: X-Y Controller
+desc: X-Y Controller [Rek]
 
 slider1:0<0,1,0.0001>-X
 slider2:0<0,1,0.0001>-Y
