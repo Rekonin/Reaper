@@ -377,6 +377,18 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Split Items by Grid in Time Selection.lua" type="script" desc="Rek_Split Items by Grid in Time Selection.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Split%20Items%20by%20Grid%20in%20Time%20Selection.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Split Items by Regions.lua" type="script" desc="Rek_Split Items by Regions.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Split%20Items%20by%20Regions.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Tap Tempo.lua" type="script" desc="Rek_Tap Tempo.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Tap%20Tempo.lua</source>
