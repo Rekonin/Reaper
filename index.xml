@@ -13,63 +13,9 @@
 </reapack>
 -->
 
-<reapack name="Audio Pitch Tracker.jsfx" type="effect" desc="Audio Pitch Tracker.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Audio%20Pitch%20Tracker.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="CC Trigger.jsfx" type="effect" desc="CC Trigger.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/CC%20Trigger.jsfx</source>
-</version>
-</reapack>
-
 <reapack name="Drum Humanizer.jsfx" type="effect" desc="Drum Humanizer.jsfx">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Drum%20Humanizer.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Inflator.jsfx" type="effect" desc="Inflator.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Inflator.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Instrument Sloppyizer.jsfx" type="effect" desc="Instrument Sloppyizer.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Instrument%20Sloppyizer.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Simple EQ.jsfx" type="effect" desc="Simple EQ.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Simple%20EQ.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Sliders.jsfx" type="effect" desc="Sliders.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Sliders.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Summing.jsfx" type="effect" desc="Summing.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Summing.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="Vocal Automation.jsfx" type="effect" desc="Vocal Automation.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Vocal%20Automation.jsfx</source>
-</version>
-</reapack>
-
-<reapack name="X-Y Controller.jsfx" type="effect" desc="X-Y Controller.jsfx">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/X-Y%20Controller.jsfx</source>
 </version>
 </reapack>
 
@@ -416,12 +362,6 @@
 <reapack name="Rek_Toggle Track Color.lua" type="script" desc="Rek_Toggle Track Color.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle%20Track%20Color.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Tooltip Selected Items Total.lua" type="script" desc="Rek_Tooltip Selected Items Total.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Tooltip%20Selected%20Items%20Total.lua</source>
 </version>
 </reapack>
 
