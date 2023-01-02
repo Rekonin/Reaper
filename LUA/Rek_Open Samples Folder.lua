@@ -1,6 +1,6 @@
 local function No_Undo()end; local function no_undo()reaper.defer(No_Undo)end;
 
-local pathFile = '"E:\\Files\\Music Production\\SAMPLES"'
+local pathFile = '"G:\\SAMPLES"'
 
 if reaper.GetOS() == "OSX32" or reaper.GetOS() == "OSX64" then;
     os.execute('open "'..pathFile..'"');
