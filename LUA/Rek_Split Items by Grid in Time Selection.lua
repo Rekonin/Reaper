@@ -1,5 +1,5 @@
-local IGNORE_CROSSFADE = false
-local IGNORE_FADE = false
+local IGNORE_CROSSFADE = true
+local IGNORE_FADE = true
 
 local function no_undo()reaper.defer(function()end)end;
 
