@@ -161,15 +161,15 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Copy Selected FX Across All Selected Tracks.lua" type="script" desc="Rek_Copy Selected FX Across All Selected Tracks.lua">
+<reapack name="Rek_Copy Selected Area of Active Take to New Track.lua" type="script" desc="Rek_Copy Selected Area of Active Take to New Track.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Copy%20Selected%20FX%20Across%20All%20Selected%20Tracks.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Copy%20Selected%20Area%20of%20Active%20Take%20to%20New%20Track.lua</source>
 </version>
 </reapack>
 
-<reapack name="Rek_Copy Selection Area of Active Take to New Track.lua" type="script" desc="Rek_Copy Selection Area of Active Take to New Track.lua">
+<reapack name="Rek_Copy Selected FX Across All Selected Tracks.lua" type="script" desc="Rek_Copy Selected FX Across All Selected Tracks.lua">
 <version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Copy%20Selection%20Area%20of%20Active%20Take%20to%20New%20Track.lua</source>
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Copy%20Selected%20FX%20Across%20All%20Selected%20Tracks.lua</source>
 </version>
 </reapack>
 
@@ -224,12 +224,6 @@
 <reapack name="Rek_Insert New Track with Send on Selected Track.lua" type="script" desc="Rek_Insert New Track with Send on Selected Track.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Insert%20New%20Track%20with%20Send%20on%20Selected%20Track.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Invert Phase Gate.lua" type="script" desc="Rek_Invert Phase Gate.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Invert%20Phase%20Gate.lua</source>
 </version>
 </reapack>
 
@@ -350,18 +344,6 @@
 <reapack name="Rek_Tap Tempo.lua" type="script" desc="Rek_Tap Tempo.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Tap%20Tempo.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Toggle CC Event Shape.lua" type="script" desc="Rek_Toggle CC Event Shape.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle%20CC%20Event%20Shape.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Toggle MIDI CC Lane.lua" type="script" desc="Rek_Toggle MIDI CC Lane.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Toggle%20MIDI%20CC%20Lane.lua</source>
 </version>
 </reapack>
 

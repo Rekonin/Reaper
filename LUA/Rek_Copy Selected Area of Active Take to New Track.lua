@@ -1,4 +1,4 @@
-script_title = "Copy selection area of active take to new track"
+script_title = "Copy selected area of active take to new track"
 
 reaper.Undo_BeginBlock()
 reaper.PreventUIRefresh(1)
