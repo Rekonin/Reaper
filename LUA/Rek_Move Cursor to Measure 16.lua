@@ -8,4 +8,4 @@ if (play_st == 0 or play_st == 2) and reaper.GetCursorPosition() == time then re
 
 reaper.Undo_BeginBlock()
 reaper.SetEditCurPos2(0, time, moveview, 0)
-reaper.Undo_EndBlock("Go to measure".." "..msr, 2)
+reaper.Undo_EndBlock('Go to measure'..' '..msr, 2)

@@ -1,4 +1,4 @@
-goScript, volValue = reaper.GetUserInputs("Trim Volume", 1, "Amount", "0")
+goScript, volValue = reaper.GetUserInputs('Trim Volume', 1, 'Amount', '0')
 
 function resetVolume()
 reaper.Undo_BeginBlock();
@@ -7,10 +7,10 @@ reaper.Undo_BeginBlock();
   
   for i = 0, selItemCount-1 do
     selItem = reaper.GetSelectedMediaItem(0, i)
-    reaper.SetMediaItemInfo_Value(selItem, "D_VOL", 1)
+    reaper.SetMediaItemInfo_Value(selItem, 'D_VOL', 1)
   end
 
-reaper.Undo_EndBlock("Volume Control - RESET VOLUME", 0);
+reaper.Undo_EndBlock('Volume Control - RESET VOLUME', 0);
 end
 
 
@@ -27,11 +27,11 @@ reaper.Undo_BeginBlock();
     selItem = reaper.GetSelectedMediaItem(0, i)
     newVolValue = math.exp(stringRest * 0.115129254)
 
-    reaper.SetMediaItemInfo_Value(selItem, "D_VOL", newVolValue)
+    reaper.SetMediaItemInfo_Value(selItem, 'D_VOL', newVolValue)
     
   end
 
-reaper.Undo_EndBlock("Volume Control - NEW VOLUME", 0);
+reaper.Undo_EndBlock('Volume Control - NEW VOLUME', 0);
 end
 
 
@@ -47,7 +47,7 @@ reaper.Undo_BeginBlock();
 
   selItem = reaper.GetSelectedMediaItem(0, i)
 
-      currentVol = reaper.GetMediaItemInfo_Value(selItem, "D_VOL")
+      currentVol = reaper.GetMediaItemInfo_Value(selItem, 'D_VOL')
       currentVolDB = 20 * (math.log(currentVol, 10))
       newVol = currentVolDB + stringRest
 
@@ -59,10 +59,10 @@ reaper.Undo_BeginBlock();
 
       newVolValue = math.exp(newVol * 0.115129254)
 
-      reaper.SetMediaItemInfo_Value(selItem, "D_VOL", newVolValue)
+      reaper.SetMediaItemInfo_Value(selItem, 'D_VOL', newVolValue)
   end
 
-reaper.Undo_EndBlock("Volume Control - INCREASE VOLUME", 0);
+reaper.Undo_EndBlock('Volume Control - INCREASE VOLUME', 0);
 end
 
 
@@ -78,16 +78,16 @@ reaper.Undo_BeginBlock();
 
   selItem = reaper.GetSelectedMediaItem(0, i)
 
-      currentVol = reaper.GetMediaItemInfo_Value(selItem, "D_VOL")
+      currentVol = reaper.GetMediaItemInfo_Value(selItem, 'D_VOL')
       currentVolDB = 20 * (math.log(currentVol, 10))
       newVol = currentVolDB - stringRest
 
       newVolValue = math.exp(newVol * 0.115129254)
 
-      reaper.SetMediaItemInfo_Value(selItem, "D_VOL", newVolValue)
+      reaper.SetMediaItemInfo_Value(selItem, 'D_VOL', newVolValue)
   end
 
-reaper.Undo_EndBlock("Volume Control - DECREASE VOLUME", 0);
+reaper.Undo_EndBlock('Volume Control - DECREASE VOLUME', 0);
 end
 
 
@@ -99,13 +99,13 @@ function main()
 stringFirst = string.sub(volValue, 1, 1)
 stringRest = string.sub(volValue, 2, 10)
 
-  if stringFirst == "-" then
+  if stringFirst == '-' then
       decVolume()
-    elseif stringFirst == "+" then
+    elseif stringFirst == '+' then
       incVolume()
-    elseif stringFirst == "=" then
+    elseif stringFirst == '=' then
       newVolume()
-    elseif volValue == "0" then
+    elseif volValue == '0' then
       resetVolume()
     else
   end

@@ -19,7 +19,7 @@ end;
         
 local numbTr;
   if Track then;
-  numbTr = reaper.GetMediaTrackInfo_Value(Track,"IP_TRACKNUMBER");
+  numbTr = reaper.GetMediaTrackInfo_Value(Track,'IP_TRACKNUMBER');
   else;
   numbTr = reaper.CountTracks(0);
 end;
@@ -35,7 +35,7 @@ reaper.PreventUIRefresh(1);
     
 local NewTrack = InsertTrack();
     
-reaper.SetMediaTrackInfo_Value(NewTrack,"I_SELECTED",1);
+reaper.SetMediaTrackInfo_Value(NewTrack,'I_SELECTED',1);
 
 local CountSelTrack = reaper.CountSelectedTracks(0);
   if CountSelTrack > 0 then;
@@ -46,11 +46,11 @@ local Send = reaper.CreateTrackSend(SelTrack,NewTrack); --Tweaked line
 
   if MIDI_Bus and MIDI_Chan then;
 local midiFlags = PACK_I_RECINPUT_MIDI(MIDI_Bus,MIDI_Chan);
-reaper.SetTrackSendInfo_Value(NewTrack,0,Send,"I_MIDIFLAGS",midiFlags);
+reaper.SetTrackSendInfo_Value(NewTrack,0,Send,'I_MIDIFLAGS',midiFlags);
       end;
     end;
   end;
 end;
     
 reaper.PreventUIRefresh(-1);
-reaper.Undo_EndBlock("Insert New Track with Receive on Selected Track",-1);
+reaper.Undo_EndBlock('Insert New Track with Receive on Selected Track',-1);

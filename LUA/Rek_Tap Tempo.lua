@@ -1,5 +1,5 @@
 font_size = 22
-font_name = "Open Sans Condensed Bold"
+font_name = 'Open Sans Condensed Bold'
 window_w = 204
 window_h = font_size * 26
 screen_w = 1920
@@ -20,9 +20,9 @@ b = 0
 
 function init(window_w, window_h)
   gfx.clear = 3289650
-  gfx.init("Tap Tempo", window_w, window_h, 0, position_x, position_y)
+  gfx.init('Tap Tempo', window_w, window_h, 0, position_x, position_y)
   gfx.setfont(1, font_name, font_size, 'b')
-  color("White")
+  color('White')
   line = 0      
   gfx.x = marge
   gfx.y = line_height
@@ -37,20 +37,20 @@ local function splitWords(Lines, limit)
 end
 
 local function wrap(str, limit)
-    local Lines, here, limit, found = {}, 1, limit or 72, str:find("(%s+)()(%S+)()")
+    local Lines, here, limit, found = {}, 1, limit or 72, str:find('(%s+)()(%S+)()')
 
     if found then
         Lines[1] = string.sub(str,1,found-1)
     else Lines[1] = str end
 
-    str:gsub("(%s+)()(%S+)()",
+    str:gsub('(%s+)()(%S+)()',
         function(sp, st, word, fi)
             splitWords(Lines, limit)
 
             if fi-here > limit then
                 here = st
                 Lines[#Lines+1] = word
-            else Lines[#Lines] = Lines[#Lines].." "..word end
+            else Lines[#Lines] = Lines[#Lines]..' '..word end
         end)
 
     splitWords(Lines, limit)
@@ -62,7 +62,7 @@ function stringWrap (text, margin_b, margin_l, margin_r)
   
   text = tostring(text)
   
-  if indent ~= nil then text = string.rep(" ", indent) .. text end
+  if indent ~= nil then text = string.rep(' ', indent) .. text end
   str_width, str_height = gfx.measurestr(text)
   
   if margin_l == nil then margin_l = marge end
@@ -76,7 +76,7 @@ function stringWrap (text, margin_b, margin_l, margin_r)
   
   if text_width > gfx.w then
 
-    m_width, m_height = gfx.measurestr("s")
+    m_width, m_height = gfx.measurestr('s')
     char_max = math.floor( (gfx.w - margin_r - margin_l) / m_width )
     
     myTable = wrap(text, char_max)
@@ -117,10 +117,10 @@ function rgba(r, g, b, a)
 end
 
 function HexToRGB(value)
-  local hex = value:gsub("#", "")
-  local R = tonumber("0x"..hex:sub(1,2))
-  local G = tonumber("0x"..hex:sub(3,4))
-  local B = tonumber("0x"..hex:sub(5,6))
+  local hex = value:gsub('#', '')
+  local R = tonumber('0x'..hex:sub(1,2))
+  local G = tonumber('0x'..hex:sub(3,4))
+  local B = tonumber('0x'..hex:sub(5,6))
   
   gfx.r = R/255
   gfx.g = G/255
@@ -129,11 +129,11 @@ function HexToRGB(value)
 end
 
 function color(col)
-  if col == "White" then HexToRGB("#ececec") end
-  if col == "Black" then HexToRGB("#131313") end
-  if col == "Red" then HexToRGB("#bf251f") end
-  if col == "Yellow" then HexToRGB("#d7cf48") end
-  if col == "Green" then HexToRGB("#77b861") end
+  if col == 'White' then HexToRGB('#ececec') end
+  if col == 'Black' then HexToRGB('#131313') end
+  if col == 'Red' then HexToRGB('#bf251f') end
+  if col == 'Yellow' then HexToRGB('#d7cf48') end
+  if col == 'Green' then HexToRGB('#77b861') end
 end
 
 function newLine(number)
@@ -263,7 +263,7 @@ end
 
 function run()  
   
-  color("White")
+  color('White')
   
   line = 0
   if line_offset == nil then line_offset = 0 end
@@ -299,19 +299,19 @@ function run()
     clock = reaper.time_precise()
     done = true
     engaged = false
-    color("Red")
+    color('Red')
     gfx.rect(gfx.mouse_x-8, gfx.mouse_y-8, 30, 30)
     clicks = clicks + 1
 
   end
 
-  color("White")
+  color('White')
 
-  if clicks == -1 then stringWrap("Press a key 5 times more") end
-  if clicks == 0 then stringWrap("Press a key 4 times more") end
-  if clicks == 1 then stringWrap("Press a key 3 times more") end
-  if clicks == 2 then stringWrap("Press a key 2 times more") end
-  if clicks == 3 then stringWrap("Press a key 1 time more") end
+  if clicks == -1 then stringWrap('Press a key 5 times more') end
+  if clicks == 0 then stringWrap('Press a key 4 times more') end
+  if clicks == 1 then stringWrap('Press a key 3 times more') end
+  if clicks == 2 then stringWrap('Press a key 2 times more') end
+  if clicks == 3 then stringWrap('Press a key 1 time more') end
   if clicks > 3 then
 
     average_current = average(times)
@@ -321,17 +321,17 @@ function run()
     
     precision = min_deviation / average_current
     
-    if precision <= 0.5 then color("Red") end
-    if precision > 0.5 and precision <= 0.9 then color("Yellow") end
-    if precision > 0.9 then color("Green") end
+    if precision <= 0.5 then color('Red') end
+    if precision > 0.5 and precision <= 0.9 then color('Yellow') end
+    if precision > 0.9 then color('Green') end
       
-    stringWrap("BPM of the last " .. (#times)) 
-    stringWrap("Average BPM = ".. (round(average_current, 0)))
-    stringWrap("Average BPM /2 = ".. (round(average_current/2, 0)))
-    stringWrap("Deviation = " .. (round(deviation, 2)))
-    stringWrap("Accuracy = ".. (round(precision*100, 2)).." %%")
-    stringWrap("Max BPM = "..(round(max_deviation, 2)))
-    stringWrap("Min BPM = "..(round(min_deviation, 2)))
+    stringWrap('BPM of the last ' .. (#times)) 
+    stringWrap('Average BPM = '.. (round(average_current, 0)))
+    stringWrap('Average BPM /2 = '.. (round(average_current/2, 0)))
+    stringWrap('Deviation = ' .. (round(deviation, 2)))
+    stringWrap('Accuracy = '.. (round(precision*100, 2))..' %%')
+    stringWrap('Max BPM = '..(round(max_deviation, 2)))
+    stringWrap('Min BPM = '..(round(min_deviation, 2)))
     
     for b = 1, #times do
       if b == 1 then newLine(2) end
@@ -349,19 +349,19 @@ function run()
     
     precisionBPM = min_deviationBPM / average_timesBPM
   
-  if precisionBPM <= 0.5 then color("Red") end
-    if precisionBPM > 0.5 and precisionBPM <= 0.95 then color("Yellow") end
-    if precisionBPM > 0.95 then color("Green") end
+  if precisionBPM <= 0.5 then color('Red') end
+    if precisionBPM > 0.5 and precisionBPM <= 0.95 then color('Yellow') end
+    if precisionBPM > 0.95 then color('Green') end
     
     if clicks > 5 then
       newLine()
-      stringWrap("Average of last " .. (#average_times))
-      stringWrap("Average BPM = ".. (round(average_timesBPM, 0)))
-      stringWrap("Average BPM /2 = ".. (round(average_timesBPM/2, 0)))
-      stringWrap("Deviation = " .. (round(deviationBPM, 2)))
-      stringWrap("Accuracy = ".. (round(precisionBPM*100, 2)).." %%")
-      stringWrap("Max BPM = "..(round(max_deviationBPM, 2)))
-      stringWrap("Min BPM = "..(round(min_deviationBPM, 2)))
+      stringWrap('Average of last ' .. (#average_times))
+      stringWrap('Average BPM = '.. (round(average_timesBPM, 0)))
+      stringWrap('Average BPM /2 = '.. (round(average_timesBPM/2, 0)))
+      stringWrap('Deviation = ' .. (round(deviationBPM, 2)))
+      stringWrap('Accuracy = '.. (round(precisionBPM*100, 2))..' %%')
+      stringWrap('Max BPM = '..(round(max_deviationBPM, 2)))
+      stringWrap('Min BPM = '..(round(min_deviationBPM, 2)))
       
       for a = 1, #average_times do
         if a == 1 then newLine(2) end

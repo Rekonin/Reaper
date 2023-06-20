@@ -1,18 +1,18 @@
-local scriptTitle = "Create sidechain"
+local scriptTitle = 'Create sidechain'
 local unselectAllChannelsID = 40297
 local createNewTrackID = 40001
 
 function createFaderSend(source, destination)
     --create send
     local sendID = reaper.CreateTrackSend(source, destination)
-    --reaper.SetTrackSendInfo_Value(source, 0, sendID, "I_DSTCHAN", 2)
+    --reaper.SetTrackSendInfo_Value(source, 0, sendID, 'I_DSTCHAN', 2)
 end
 
 function main()
     --check for selected tracks
     local trackCount = reaper.CountSelectedTracks(0)
     if trackCount <= 1 then
-        reaper.ShowMessageBox("No tracks selected. Select at least two tracks.", "Error", 0)
+        reaper.ShowMessageBox('No tracks selected. Select at least two tracks.', 'Error', 0)
         return
     end
 

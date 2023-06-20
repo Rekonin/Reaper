@@ -1,6 +1,6 @@
-local scriptName = ({reaper.get_action_context()})[2]:match("([^/\\_]+).lua$")
-local background = scriptName:match("background")
-local destination = scriptName:match("destination")
+local scriptName = ({reaper.get_action_context()})[2]:match('([^/\\_]+).lua$')
+local background = scriptName:match('background')
+local destination = scriptName:match('destination')
 
 local selected = {}
 

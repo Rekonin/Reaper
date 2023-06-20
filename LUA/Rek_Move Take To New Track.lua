@@ -23,7 +23,7 @@ reaper.SetMediaItemSelected(newItem, true)
 
 take = reaper.GetActiveTake(item)
 track = reaper.GetMediaItemTake_Track(take)
-tracknum = reaper.GetMediaTrackInfo_Value(track, "IP_TRACKNUMBER")
+tracknum = reaper.GetMediaTrackInfo_Value(track, 'IP_TRACKNUMBER')
 reaper.InsertTrackAtIndex(tracknum, false)
 reaper.Main_OnCommand(40118, 0) -- move take down
 

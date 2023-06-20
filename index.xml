@@ -113,6 +113,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Add New Track - Input 1+2.lua" type="script" desc="Rek_Add New Track - Input 1+2.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20New%20Track%20-%20Input%201+2.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Add New Track - Input 2.lua" type="script" desc="Rek_Add New Track - Input 2.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20New%20Track%20-%20Input%202.lua</source>
@@ -146,6 +152,12 @@
 <reapack name="Rek_Command Lookup.lua" type="script" desc="Rek_Command Lookup.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Command%20Lookup.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Commit to MIDI Output.lua" type="script" desc="Rek_Commit to MIDI Output.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20to%20MIDI%20Output.lua</source>
 </version>
 </reapack>
 
@@ -197,6 +209,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Create VCA for Selected Tracks.lua" type="script" desc="Rek_Create VCA for Selected Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20VCA%20for%20Selected%20Tracks.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Dummy Script.lua" type="script" desc="Rek_Dummy Script.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Dummy%20Script.lua</source>
@@ -233,15 +251,15 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Move Take To New Track.lua" type="script" desc="Rek_Move Take To New Track.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Take%20To%20New%20Track.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Move Cursor to Measure 16.lua" type="script" desc="Rek_Move Cursor to Measure 16.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Cursor%20to%20Measure%2016.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Move Take To New Track.lua" type="script" desc="Rek_Move Take To New Track.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Take%20To%20New%20Track.lua</source>
 </version>
 </reapack>
 
@@ -317,6 +335,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Set MIDI Hardware Output.lua" type="script" desc="Rek_Set MIDI Hardware Output.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20MIDI%20Hardware%20Output.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Set Tempo BPM.lua" type="script" desc="Rek_Set Tempo BPM.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Set%20Tempo%20BPM.lua</source>
@@ -338,6 +362,12 @@
 <reapack name="Rek_Split Items by Regions.lua" type="script" desc="Rek_Split Items by Regions.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Split%20Items%20by%20Regions.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Split to Time Selection only if Items Selected.lua" type="script" desc="Rek_Split to Time Selection only if Items Selected.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Split%20to%20Time%20Selection%20only%20if%20Items%20Selected.lua</source>
 </version>
 </reapack>
 

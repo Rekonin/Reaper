@@ -14,4 +14,4 @@ if reaper.CountTracks(0) ~= nil then
 end
 
 reaper.PreventUIRefresh(-1);
-reaper.Undo_EndBlock("Pan L-R Labeled Tracks", -1);
+reaper.Undo_EndBlock('Pan L-R Labeled Tracks', -1);

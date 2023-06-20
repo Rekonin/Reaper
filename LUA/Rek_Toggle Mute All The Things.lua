@@ -10,4 +10,4 @@ else
   reaper.Main_OnCommand(42211, 0)  --Envelope: Mute automation items
 end
 
-reaper.Undo_EndBlock("Toggle Mute All The Things", 0)
+reaper.Undo_EndBlock('Toggle Mute All The Things', 0)

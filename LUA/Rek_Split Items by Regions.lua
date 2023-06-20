@@ -23,8 +23,8 @@ end
 
 function MultiSplitMediaItem(item, times)
 
-local item_pos = reaper.GetMediaItemInfo_Value(item, "D_POSITION")
-local item_end = reaper.GetMediaItemInfo_Value(item, "D_LENGTH") + item_pos
+local item_pos = reaper.GetMediaItemInfo_Value(item, 'D_POSITION')
+local item_end = reaper.GetMediaItemInfo_Value(item, 'D_LENGTH') + item_pos
 
 local items = {}
 
@@ -50,14 +50,14 @@ end
 
 function Msg(value)
   if console then
-    reaper.ShowConsoleMsg(tostring(value) .. "\n")
+    reaper.ShowConsoleMsg(tostring(value) .. '\n')
   end
 end
 
 function GetRegionsPoints()
   local i=0
   repeat
-    local iRetval, bIsrgnOut, iPosOut, iRgnendOut, sNameOut, iMarkrgnindexnumberOut, iColorOur = reaper.EnumProjectMarkers3(0,i)
+    local iRetval, bIsrgnOut, iPosOut, iRgnendOut, sNameOut, iMarkrgnindexnumberOut, iColorOur = reaper.EnumProjectMarkers3(0, i)
     if iRetval >= 1 then
       if bIsrgnOut == true then
         table.insert(pos, iPosOut)
@@ -88,7 +88,7 @@ if count_sel_items > 0 then
 
   main()
 
-  reaper.Undo_EndBlock("Split selected items at regions", -1)
+  reaper.Undo_EndBlock('Split selected items at regions', -1)
   reaper.UpdateArrange()
   reaper.PreventUIRefresh(-1)
 end
