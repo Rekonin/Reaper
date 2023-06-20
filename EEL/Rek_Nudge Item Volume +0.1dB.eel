@@ -6,7 +6,7 @@ function nudge_item_vol() local(i, item)
       
       NudgeAmount = +0.1;
 
-      OldVol=GetMediaItemInfo_Value(item, 'D_VOL');
+      OldVol=GetMediaItemInfo_Value(item, "D_VOL");
       OldVolDB=20*(log10(OldVol));
 
         NewVol=OldVolDB+NudgeAmount;
@@ -19,12 +19,12 @@ function nudge_item_vol() local(i, item)
       
         NewVolGain=exp(NewVol*0.115129254);
 
-      SetMediaItemInfo_Value(item, 'D_VOL', NewVolGain);
+      SetMediaItemInfo_Value(item, "D_VOL", NewVolGain);
     );
   i += 1;
   );
   UpdateArrange();
-  Undo_OnStateChange('Nudge Item Volume +6dB');
+  Undo_OnStateChange("Nudge Item Volume +6dB");
 );
 
 nudge_item_vol();
