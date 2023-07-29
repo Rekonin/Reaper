@@ -131,6 +131,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Add New Track - Minilogue.lua" type="script" desc="Rek_Add New Track - Minilogue.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20New%20Track%20-%20Minilogue.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Add New Track - Separator.lua" type="script" desc="Rek_Add New Track - Separator.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20New%20Track%20-%20Separator.lua</source>
@@ -272,6 +278,12 @@
 <reapack name="Rek_Pan L-R Labeled Tracks.lua" type="script" desc="Rek_Pan L-R Labeled Tracks.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Pan%20L-R%20Labeled%20Tracks.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Rebalance Volume from Track to Media Items.lua" type="script" desc="Rek_Rebalance Volume from Track to Media Items.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Rebalance%20Volume%20from%20Track%20to%20Media%20Items.lua</source>
 </version>
 </reapack>
 
