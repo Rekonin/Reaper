@@ -167,12 +167,6 @@
 </version>
 </reapack>
 
-<reapack name="Rek_Command Lookup.lua" type="script" desc="Rek_Command Lookup.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Command%20Lookup.lua</source>
-</version>
-</reapack>
-
 <reapack name="Rek_Commit to MIDI Output.lua" type="script" desc="Rek_Commit to MIDI Output.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Commit%20to%20MIDI%20Output.lua</source>
