@@ -43,7 +43,7 @@ table.sort(split_pos_sorted)
 s_tracks = {}
 
 for i = 1, tracks-1 do
-  local tr = reaper.GetSelectedTrack(0,i)
+  local tr = reaper.GetSelectedTrack(0, i)
   s_tracks[#s_tracks+1] = tr
 end
 
@@ -63,7 +63,7 @@ reaper.PreventUIRefresh(1);
 reaper.Undo_BeginBlock();
 
 for i = 1, #split_items do
-  for j = #split_pos,1,-1 do
+  for j = #split_pos, 1, -1 do
     reaper.SplitMediaItem(split_items[i], split_pos_sorted[j])
   end
 end
@@ -83,9 +83,9 @@ for i = 1, #s_tracks do
   end
 end
 
-for item,tr in pairs(del) do reaper.DeleteTrackMediaItem(tr,item) end
+for item,tr in pairs(del) do reaper.DeleteTrackMediaItem(tr, item) end
 
 reaper.UpdateArrange()
 
-reaper.Undo_EndBlock('Replicate Splits',-1);
+reaper.Undo_EndBlock('Replicate Splits', -1);
 reaper.PreventUIRefresh(-1);

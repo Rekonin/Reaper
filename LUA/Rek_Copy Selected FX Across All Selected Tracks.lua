@@ -12,7 +12,7 @@ function main()
     fxname = fxname:match('%:.+'):sub(3)
   end
     
-  for sel_tr = 1,  reaper.CountSelectedTracks(0) do
+  for sel_tr = 1, reaper.CountSelectedTracks(0) do
     sel_track = reaper.GetSelectedTrack(0, sel_tr-1)
     if sel_track ~= track then reaper.TrackFX_AddByName(sel_track, fxname, false, -1) end
   end

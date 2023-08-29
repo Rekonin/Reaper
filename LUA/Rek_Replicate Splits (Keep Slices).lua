@@ -30,10 +30,10 @@ function GetSplitPoints()
   split_all = {}
 
   for i = 0, count_sel_tracks -1 do
-    local track = reaper.GetSelectedTrack(0, i) -- Get selected track 0
+    local track = reaper.GetSelectedTrack(0, i) --Get selected track 0
     local item_on_tracks = reaper.CountTrackMediaItems(track)
-    for j = 0, item_on_tracks-1  do
-    local item = reaper.GetTrackMediaItem(track, j) -- Get selected item i
+    for j = 0, item_on_tracks-1 do
+    local item = reaper.GetTrackMediaItem(track, j) --Get selected item i
       local item_len = reaper.GetMediaItemInfo_Value(item, 'D_LENGTH')
       local item_pos = reaper.GetMediaItemInfo_Value(item, 'D_POSITION')
       local item_end = item_pos + item_len
@@ -60,7 +60,6 @@ function main()
     item_pos = reaper.GetMediaItemInfo_Value(item, 'D_POSITION')
     item_end = reaper.GetMediaItemInfo_Value(item, 'D_LENGTH') + item_pos
 
-    -- SPLIT ITEMS
     for j, pos in ipairs(split_pos) do
 
       if pos < item_end and pos > item_pos then
@@ -88,7 +87,7 @@ main()
 
 reaper.UpdateArrange()
 
-reaper.Undo_EndBlock('Replicate Splits (Keep Slices)',-1);
+reaper.Undo_EndBlock('Replicate Splits (Keep Slices)', -1);
 reaper.PreventUIRefresh(-1);
 
 end

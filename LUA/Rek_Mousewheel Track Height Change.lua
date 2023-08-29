@@ -1,4 +1,5 @@
 is_new_value,filename,sectionID,cmdID,mode,resolution,val = reaper.get_action_context()
+
 if is_new_value then
  x, y = reaper.GetMousePosition()
  track, _ = reaper.GetTrackFromPoint(x,y)
@@ -11,6 +12,7 @@ if is_new_value then
     end
    end
 end
+
 reaper.TrackList_AdjustWindows(false)
 reaper.UpdateArrange()
 reaper.defer()

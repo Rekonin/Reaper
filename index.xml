@@ -19,6 +19,12 @@
 </version>
 </reapack>
 
+<reapack name="Channel Splitter.jsfx" type="effect" desc="Channel Splitter.jsfx">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Channel%20Splitter.jsfx</source>
+</version>
+</reapack>
+
 <reapack name="Drum Humanizer.jsfx" type="effect" desc="Drum Humanizer.jsfx">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Drum%20Humanizer.jsfx</source>
@@ -143,6 +149,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Add Track Notes.lua" type="script" desc="Rek_Add Track Notes.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Add%20Track%20Notes.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Bounce to Mono Audio.lua" type="script" desc="Rek_Bounce to Mono Audio.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Bounce%20to%20Mono%20Audio.lua</source>
@@ -215,6 +227,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Create Stereo Send to Mono Panned L-R Tracks.lua" type="script" desc="Rek_Create Stereo Send to Mono Panned L-R Tracks.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20Stereo%20Send%20to%20Mono%20Panned%20L-R%20Tracks.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Create VCA for Selected Tracks.lua" type="script" desc="Rek_Create VCA for Selected Tracks.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Create%20VCA%20for%20Selected%20Tracks.lua</source>
@@ -260,6 +278,12 @@
 <reapack name="Rek_Move Cursor to Measure 16.lua" type="script" desc="Rek_Move Cursor to Measure 16.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Cursor%20to%20Measure%2016.lua</source>
+</version>
+</reapack>
+
+<reapack name="Rek_Move Item To New Track.lua" type="script" desc="Rek_Move Item To New Track.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Move%20Item%20To%20New%20Track.lua</source>
 </version>
 </reapack>
 
@@ -374,12 +398,6 @@
 <reapack name="Rek_Split Items by Regions.lua" type="script" desc="Rek_Split Items by Regions.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Split%20Items%20by%20Regions.lua</source>
-</version>
-</reapack>
-
-<reapack name="Rek_Split to Time Selection only if Items Selected.lua" type="script" desc="Rek_Split to Time Selection only if Items Selected.lua">
-<version name="1.0" author="Rekonin">
-<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Split%20to%20Time%20Selection%20only%20if%20Items%20Selected.lua</source>
 </version>
 </reapack>
 

@@ -1,0 +1,60 @@
+desc:Channel Splitter [Rek]
+
+slider1:0<-12,12,0.1>Master
+slider3:0<-60,12,0.1>1/2 -> 1/2
+slider4:0<-60,12,0.1>1/2 -> 3/4
+slider5:0<-60,12,0.1>1/2 -> 5/6
+slider6:0<-60,12,0.1>1/2 -> 7/8
+slider7:0<-60,12,0.1>1/2 -> 9/10
+slider8:0<-60,12,0.1>1/2 -> 11/12
+slider9:0<-60,12,0.1>1/2 -> 13/14
+slider10:0<-60,12,0.1>1/2 -> 15/16
+
+in_pin:In 1
+in_pin:In 2
+out_pin:Out 1
+out_pin:Out 2
+out_pin:Out 3
+out_pin:Out 4
+out_pin:Out 5
+out_pin:Out 6
+out_pin:Out 7
+out_pin:Out 8
+out_pin:Out 9
+out_pin:Out 10
+out_pin:Out 11
+out_pin:Out 12
+out_pin:Out 13
+out_pin:Out 14
+out_pin:Out 15
+out_pin:Out 16
+
+@slider
+adj1 = (2^(slider3/6)) + (slider1/6);
+adj2 = (2^(slider4/6)) + (slider1/6);
+adj3 = (2^(slider5/6)) + (slider1/6);
+adj4 = (2^(slider6/6)) + (slider1/6);
+adj5 = (2^(slider7/6)) + (slider1/6);
+adj6 = (2^(slider8/6)) + (slider1/6);
+adj7 = (2^(slider9/6)) + (slider1/6);
+adj8 = (2^(slider10/6)) + (slider1/6);
+
+@sample
+smp0 = spl(0);
+smp1 = spl(1);
+spl(0) = smp0*adj1;
+spl(1) = smp1*adj1;
+spl(2) = smp0*adj2;
+spl(3) = smp1*adj2;
+spl(4) = smp0*adj3;
+spl(5) = smp1*adj3;
+spl(6) = smp0*adj4;
+spl(7) = smp1*adj4;
+spl(8) = smp0*adj5;
+spl(9) = smp1*adj5;
+spl(10) = smp0*adj6;
+spl(11) = smp1*adj6;
+spl(12) = smp0*adj7;
+spl(13) = smp1*adj7;
+spl(14) = smp0*adj8;
+spl(15) = smp1*adj8;

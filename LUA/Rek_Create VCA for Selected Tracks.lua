@@ -32,7 +32,7 @@ local function scan_groups()
   for i = 0 , cnt_tr-1 do
     local tr = reaper.GetTrack(0,i)
     for k = 1 , #vca_group do
-      if reaper.GetSetTrackGroupMembership(tr,'VOLUME_VCA_MASTER', 0,0) == 2^(k-1) or reaper.GetSetTrackGroupMembershipHigh(tr,'VOLUME_VCA_MASTER', 0,0) == 2^((k-32)-1) then cnt = cnt + 1 end
+      if reaper.GetSetTrackGroupMembership(tr,'VOLUME_VCA_MASTER', 0, 0) == 2^(k-1) or reaper.GetSetTrackGroupMembershipHigh(tr, 'VOLUME_VCA_MASTER', 0, 0) == 2^((k-32)-1) then cnt = cnt + 1 end
       for j = 1 , #VCA_FLAGS do
         if reaper.GetSetTrackGroupMembership(tr,VCA_FLAGS[j], 0,0) == 2^(k-1) or 
           reaper.GetSetTrackGroupMembershipHigh(tr,VCA_FLAGS[j], 0,0) == 2^((k-32)-1) then 
@@ -59,37 +59,37 @@ function create_VCAs()
   elseif position == 0 then
     master_pos = reaper.CountTracks(0)
   else
-    master_pos = reaper.CSurf_TrackToID( tracks[1], false ) - 1
+    master_pos = reaper.CSurf_TrackToID(tracks[1], false) - 1
   end
   
  reaper.InsertTrackAtIndex(master_pos, false)
   reaper.TrackList_AdjustWindows(false)
-  local tr = reaper.GetTrack(0,master_pos) 
+  local tr = reaper.GetTrack(0, master_pos) 
   
  if popup == 0 then
-    local retval, track_name = reaper.GetSetMediaTrackInfo_String(tr, 'P_NAME', 'VCA ' .. cnt , true)
+    local retval, track_name = reaper.GetSetMediaTrackInfo_String(tr, 'P_NAME', 'VCA ' .. cnt, true)
   else
-    local ret , name = reaper.GetUserInputs('ADD VCA NAME ', 1, 'VCA NAME :', '')
+    local ret , name = reaper.GetUserInputs('ADD VCA NAME ', 1, 'VCA NAME:', '')
  if ret then 
-      local retval, track_name = reaper.GetSetMediaTrackInfo_String(tr, 'P_NAME', name , true)
+      local retval, track_name = reaper.GetSetMediaTrackInfo_String(tr, 'P_NAME', 'VCA: ' .. name, true)
  else      
       reaper.DeleteTrack(tr)
       return 0
     end
   end
  
- local VCA_M = group(tr,'VOLUME_VCA_MASTER', free_group,free_group)
+ local VCA_M = group(tr, 'VOLUME_VCA_MASTER', free_group,free_group)
     if mute_solo == 1 then 
-      local VCA_M_MUTE = group(tr,'MUTE_MASTER', free_group,free_group)
-      local VCA_M_SOLO = group(tr,'SOLO_MASTER', free_group,free_group)
+      local VCA_M_MUTE = group(tr, 'MUTE_MASTER', free_group, free_group)
+      local VCA_M_SOLO = group(tr, 'SOLO_MASTER', free_group, free_group)
     end
     
  for i = 1, #tracks do
     local tr = tracks[i]
-    local VCA_S = group(tr,'VOLUME_VCA_SLAVE', free_group,free_group)
+    local VCA_S = group(tr, 'VOLUME_VCA_SLAVE', free_group, free_group)
       if mute_solo == 1 then
-        local VCA_S_MUTE = group(tr,'MUTE_SLAVE', free_group,free_group)
-        local VCA_S_SOLO = group(tr,'SOLO_SLAVE', free_group,free_group)
+        local VCA_S_MUTE = group(tr, 'MUTE_SLAVE', free_group, free_group)
+        local VCA_S_SOLO = group(tr, 'SOLO_SLAVE', free_group, free_group)
       end
   end
 end

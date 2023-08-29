@@ -13,5 +13,5 @@ for i = 0, tracknum - 1, 1 do
   reaper.Main_OnCommand(40493, 0) --Track: Set track record monitor to on
 end
 
-reaper.Undo_EndBlock('Add New Track - Input 1',-1);
+reaper.Undo_EndBlock('Add New Track - Input 1' -1);
 reaper.PreventUIRefresh(-1);
