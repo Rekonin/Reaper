@@ -13,6 +13,12 @@
 </reapack>
 -->
 
+<reapack name="16-to-2 Mixer.jsfx" type="effect" desc="16-to-2 Mixer.jsfx">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/16-to-2%20Mixer.jsfx</source>
+</version>
+</reapack>
+
 <reapack name="Channel Mapper.jsfx" type="effect" desc="Channel Mapper.jsfx">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/JSFX/Channel%20Mapper.jsfx</source>

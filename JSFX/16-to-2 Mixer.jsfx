@@ -1,0 +1,39 @@
+desc:16-to-2 Mixer [Rek]
+
+slider1:-6<-18,6,0.1>Gain
+
+in_pin:input 1
+in_pin:input 2
+in_pin:input 3
+in_pin:input 4
+in_pin:input 5
+in_pin:input 6
+in_pin:input 7
+in_pin:input 8
+in_pin:input 9
+in_pin:input 10
+in_pin:input 11
+in_pin:input 12
+in_pin:input 13
+in_pin:input 14
+in_pin:input 15
+in_pin:input 16
+out_pin:output L
+out_pin:output R
+
+@init
+ext_tail_size = -2;
+
+@slider
+volChange=2 ^ (slider1/6);
+
+@sample
+
+in1 = spl0*volChange; in2 = spl1*volChange; in3 = spl2*volChange; in4 = spl3*volChange;
+in5 = spl4*volChange; in6 = spl5*volChange; in7 = spl6*volChange; in8 = spl7*volChange;
+in9 = spl8*volChange; in10 = spl9*volChange; in11 = spl10*volChange; in12 = spl11*volChange;
+in13 = spl12*volChange; in14 = spl13*volChange; in15 = spl14*volChange; in16 = spl15*volChange;
+
+spl0 =   in1 + in2 + in3 + in4 + in5 + in6 + in7 + in8 + in9 + in10 + in11 + in12 + in13 + in14 + in15 + in16;
+
+spl1 =   in1 + in2 + in3 + in4 + in5 + in6 + in7 + in8 + in9 + in10 + in11 + in12 + in13 + in14 + in15 + in16;
