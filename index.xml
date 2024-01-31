@@ -401,6 +401,12 @@
 </version>
 </reapack>
 
+<reapack name="Rek_Split Selected Items at Selection or Cursor.lua" type="script" desc="Rek_Split Selected Items at Selection or Cursor.lua">
+<version name="1.0" author="Rekonin">
+<source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Split%20Selected%20Items%20at%20Selection%20or%20Cursor.lua</source>
+</version>
+</reapack>
+
 <reapack name="Rek_Tap Tempo.lua" type="script" desc="Rek_Tap Tempo.lua">
 <version name="1.0" author="Rekonin">
 <source main="main">https://raw.githubusercontent.com/Rekonin/Reaper/main/LUA/Rek_Tap%20Tempo.lua</source>
