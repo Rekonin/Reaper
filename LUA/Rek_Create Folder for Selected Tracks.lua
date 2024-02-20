@@ -37,13 +37,11 @@ reaper.SetMediaTrackInfo_Value(tr, 'I_FOLDERDEPTH', 1)
 reaper.SetMediaTrackInfo_Value(last_tr, 'I_FOLDERDEPTH', last_sel_dep-1)
 reaper.SetOnlyTrackSelected(tr)
 
-reaper.Main_OnCommand(40914, 0) --Track: Set first selected track as last touched track
-
---reaper.Main_OnCommand(40913, 0) --Track: Vertical scroll selected tracks into view
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_INSTRACKLABSUFF'), 0)
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_SWS_TRACKRANDCOL'), 0)
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_SWSAUTOCOLOR_APPLY'), 0)
 
+--reaper.Main_OnCommand(40914, 0) --Track: Set first selected track as last touched track
 --reaper.Main_OnCommand(40696, 0) --Track: Rename last touched track
 
 reaper.PreventUIRefresh(-1)

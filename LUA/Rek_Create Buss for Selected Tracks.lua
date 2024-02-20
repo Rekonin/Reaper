@@ -27,8 +27,8 @@ reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_SELPREVTRACK'), 0)
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_XENAKIOS_INSTRACKLABSUFF'), 0)
 reaper.Main_OnCommand(reaper.NamedCommandLookup('_SWSAUTOCOLOR_APPLY'), 0)
 
-reaper.Main_OnCommand(40914, 0) --Track: Set first selected track as last touched track
-reaper.Main_OnCommand(40696, 0) --Track: Rename last touched track
+--reaper.Main_OnCommand(40914, 0) --Track: Set first selected track as last touched track
+--reaper.Main_OnCommand(40696, 0) --Track: Rename last touched track
 
 reaper.PreventUIRefresh(-1)
 reaper.Undo_EndBlock('Create bus before selected tracks and reroute them', 0)
